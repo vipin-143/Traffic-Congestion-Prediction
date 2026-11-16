@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-11-16T15:41:21.105142+00:00",
+  "station_id": 20029,
+  "weather_error": null,
+  "inputs": [
+    {
+      "timestamp": "2026-11-16 15:40:59+00:00",
+      "station_id": 20029,
+      "direction": 1,
+      "speed_kmh": 79.0,
+      "flow_vph": 1164.0,
+      "temperature_2m": 4.9,
+      "relative_humidity_2m": 90,
+      "precipitation": 0.3,
+      "snowfall": 0.0,
+      "wind_speed_10m": 27.4,
+      "weather_time": "2026-11-16 15:00:00+00:00"
+    }
+  ],
+  "prediction": [
+    {
+      "timestamp": "2026-11-16 15:40:59+00:00",
+      "station_id": 20029,
+      "direction": 1,
+      "speed_kmh": 79.0,
+      "flow_vph": 1164.0,
+      "prediction_at": "2026-11-16 15:55:59+00:00",
+      "predicted_speed_kmh": 77.6375898131099,
+      "model_mode": "weather",
+      "algorithm": "Gradient boosting",
+      "weather_fallback": false,
+      "reference_speed_kmh": 80.87309782608695,
+      "congestion": "Low"
+    }
+  ]
+}

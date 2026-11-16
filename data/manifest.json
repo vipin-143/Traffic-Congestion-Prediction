@@ -1,0 +1,3679 @@
+{
+  "created_at": "2026-11-16T14:51:44.732780+00:00",
+  "start_date": "2026-09-01",
+  "end_date": "2026-11-13",
+  "station_ids": [
+    20029,
+    23117,
+    23146,
+    23149,
+    23154
+  ],
+  "raw_rows": 21557044,
+  "valid_raw_rows": 21289235,
+  "aggregated_rows": 206573,
+  "downloaded_station_days": 361,
+  "requested_station_days": 370,
+  "weather_missing_fraction": 0.0016749526801663334,
+  "failures": [
+    {
+      "station_id": 23117,
+      "date": "2026-09-05",
+      "error": "HTTPSConnectionPool(host='tie.digitraffic.fi', port=443): Read timed out."
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-07",
+      "error": "HTTPSConnectionPool(host='tie.digitraffic.fi', port=443): Read timed out."
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-21",
+      "error": "HTTPSConnectionPool(host='tie.digitraffic.fi', port=443): Read timed out."
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-11-04",
+      "error": "HTTPSConnectionPool(host='tie.digitraffic.fi', port=443): Read timed out."
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-17",
+      "error": "HTTPSConnectionPool(host='tie.digitraffic.fi', port=443): Read timed out."
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-26",
+      "error": "HTTPSConnectionPool(host='tie.digitraffic.fi', port=443): Read timed out."
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-16",
+      "error": "HTTPSConnectionPool(host='tie.digitraffic.fi', port=443): Read timed out."
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-14",
+      "error": "HTTPSConnectionPool(host='tie.digitraffic.fi', port=443): Read timed out."
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-26",
+      "error": "HTTPSConnectionPool(host='tie.digitraffic.fi', port=443): Read timed out."
+    }
+  ],
+  "files": [
+    {
+      "station_id": 20029,
+      "date": "2026-09-01",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_244.csv",
+      "downloaded_at": "2026-11-16T14:32:53.337728+00:00",
+      "sha256_uncompressed": "3cc2efbeee6076ab623519692b4bb78930812fdf880c5d556c5ef4377e054caa",
+      "raw_rows": 53858,
+      "valid_rows": 53850,
+      "discarded_rows": 8
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-03",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_246.csv",
+      "downloaded_at": "2026-11-16T14:32:53.804636+00:00",
+      "sha256_uncompressed": "254cfce87919c5d98e839eb551840ecb96f4d7d45db3bedbadc1769caec35f1b",
+      "raw_rows": 53960,
+      "valid_rows": 53946,
+      "discarded_rows": 14
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-02",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_245.csv",
+      "downloaded_at": "2026-11-16T14:32:54.546117+00:00",
+      "sha256_uncompressed": "2ba3f91198dd2595d00af04b7737e66063785a96dd42f7cb284a885169d745ea",
+      "raw_rows": 53929,
+      "valid_rows": 53895,
+      "discarded_rows": 34
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-04",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_247.csv",
+      "downloaded_at": "2026-11-16T14:32:55.356025+00:00",
+      "sha256_uncompressed": "3e649c372b2340e574ea2e501d3d8cebe320c14e9af724595dc2c36985297a3c",
+      "raw_rows": 52523,
+      "valid_rows": 52522,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-05",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_248.csv",
+      "downloaded_at": "2026-11-16T14:32:56.362728+00:00",
+      "sha256_uncompressed": "309f09f447d5304467ef5d7c3c1d7fe0a9ae108a49bb64c90ea223ecfdc353a0",
+      "raw_rows": 38300,
+      "valid_rows": 38299,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-06",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_249.csv",
+      "downloaded_at": "2026-11-16T14:32:57.576455+00:00",
+      "sha256_uncompressed": "86af3c7475b2470a54ba3afd959b37a969473702378f3d45c450556d6f7b2de7",
+      "raw_rows": 36944,
+      "valid_rows": 36944,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-07",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_250.csv",
+      "downloaded_at": "2026-11-16T14:32:59.061368+00:00",
+      "sha256_uncompressed": "bf15dd39f0fee66b7ba0c6de5f7388a3eaf8570726c4228290dd4a264fb28009",
+      "raw_rows": 50996,
+      "valid_rows": 50995,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-08",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_251.csv",
+      "downloaded_at": "2026-11-16T14:33:00.126370+00:00",
+      "sha256_uncompressed": "084cbfb51ca42256a24e514b172bd7a9b9ae59cb19361128affc0dc033d97d40",
+      "raw_rows": 52272,
+      "valid_rows": 52264,
+      "discarded_rows": 8
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-09",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_252.csv",
+      "downloaded_at": "2026-11-16T14:33:01.407863+00:00",
+      "sha256_uncompressed": "f220399da0ea43964bfcd4cb504f8e164ace809c2d5f5c0942efc8f9a2f9a94c",
+      "raw_rows": 53146,
+      "valid_rows": 53142,
+      "discarded_rows": 4
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-10",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_253.csv",
+      "downloaded_at": "2026-11-16T14:33:02.747052+00:00",
+      "sha256_uncompressed": "b081850c022aaf605308082cde12da4405abc2f8af3e595a07f08cac097207a6",
+      "raw_rows": 53414,
+      "valid_rows": 53401,
+      "discarded_rows": 13
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-11",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_254.csv",
+      "downloaded_at": "2026-11-16T14:33:03.935952+00:00",
+      "sha256_uncompressed": "ae81302cedf1b29d8539aa5e2af670b268ef67f4532247f49fbf36ab7c14a174",
+      "raw_rows": 51838,
+      "valid_rows": 51832,
+      "discarded_rows": 6
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-12",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_255.csv",
+      "downloaded_at": "2026-11-16T14:33:04.415480+00:00",
+      "sha256_uncompressed": "cfc27867fbc12c7f70cb417c4cdfce2cd6ff88b4026a09278506f1c51320e504",
+      "raw_rows": 36971,
+      "valid_rows": 36970,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-13",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_256.csv",
+      "downloaded_at": "2026-11-16T14:33:05.552535+00:00",
+      "sha256_uncompressed": "6a23144d6ea21440882ed58c95144e52b2c28261ff65f608ce29c449fcf2873c",
+      "raw_rows": 33538,
+      "valid_rows": 33538,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-14",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_257.csv",
+      "downloaded_at": "2026-11-16T14:33:07.060793+00:00",
+      "sha256_uncompressed": "7ac7c25128210cb3d261d5fc587a3094e800d416f78dd7b4d6031fad33174c57",
+      "raw_rows": 49173,
+      "valid_rows": 49123,
+      "discarded_rows": 50
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-15",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_258.csv",
+      "downloaded_at": "2026-11-16T14:33:08.132243+00:00",
+      "sha256_uncompressed": "190d44f30c69d46fa619e26f557d4b0c90c12e0edf80c94a6f491b4d3137d7c6",
+      "raw_rows": 52568,
+      "valid_rows": 52568,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-16",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_259.csv",
+      "downloaded_at": "2026-11-16T14:33:09.210507+00:00",
+      "sha256_uncompressed": "a08094543f4a37c1710457f6b05d61a3e310d8a2187d2ca96d9619679fbd5900",
+      "raw_rows": 50480,
+      "valid_rows": 50479,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-17",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_260.csv",
+      "downloaded_at": "2026-11-16T14:33:10.322174+00:00",
+      "sha256_uncompressed": "1d0f8de758c2f50325456059920c4d17c3319fc7a733acf0f15da7ba3a961345",
+      "raw_rows": 53678,
+      "valid_rows": 53674,
+      "discarded_rows": 4
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-18",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_261.csv",
+      "downloaded_at": "2026-11-16T14:33:11.656500+00:00",
+      "sha256_uncompressed": "0be63b6a6fff86237acc2fb97c839283e2a0ddf3fe389b8c11807c302ebe4193",
+      "raw_rows": 51224,
+      "valid_rows": 51209,
+      "discarded_rows": 15
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-19",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_262.csv",
+      "downloaded_at": "2026-11-16T14:33:12.551669+00:00",
+      "sha256_uncompressed": "a3b598d57f96f19b3431e6d50b52c5dcbafbcae52806a9d3f26f71f95062d61a",
+      "raw_rows": 37269,
+      "valid_rows": 37242,
+      "discarded_rows": 27
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-20",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_263.csv",
+      "downloaded_at": "2026-11-16T14:33:13.521016+00:00",
+      "sha256_uncompressed": "edaae84ef6a4a552b1fc25c4586ba4c128de6f1391d894fe82b0b1bf6f25e67d",
+      "raw_rows": 34639,
+      "valid_rows": 34634,
+      "discarded_rows": 5
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-21",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_264.csv",
+      "downloaded_at": "2026-11-16T14:33:15.016091+00:00",
+      "sha256_uncompressed": "2bbcacc36c4467af73a0530cea382ce6a8db78e9cbd1afc1686f8e9493cda0d2",
+      "raw_rows": 49921,
+      "valid_rows": 49909,
+      "discarded_rows": 12
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-22",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_265.csv",
+      "downloaded_at": "2026-11-16T14:33:16.193569+00:00",
+      "sha256_uncompressed": "6a287b492bf6ad5206ea883ce7b0e17d414a0082fe538c954e4f5f04f36b011c",
+      "raw_rows": 52368,
+      "valid_rows": 52365,
+      "discarded_rows": 3
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-23",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_266.csv",
+      "downloaded_at": "2026-11-16T14:33:17.254144+00:00",
+      "sha256_uncompressed": "e3f996bb7981218e93ce3d5d7591da5d2520788a8a98d64ecde9741f2968dc1f",
+      "raw_rows": 52839,
+      "valid_rows": 52838,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-24",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_267.csv",
+      "downloaded_at": "2026-11-16T14:33:18.879271+00:00",
+      "sha256_uncompressed": "7e5b2a5d8d77450e20345385b4fcf8f733e0b2aa316b3ab1282acb5c19a852d8",
+      "raw_rows": 52740,
+      "valid_rows": 52735,
+      "discarded_rows": 5
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-25",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_268.csv",
+      "downloaded_at": "2026-11-16T14:33:19.561493+00:00",
+      "sha256_uncompressed": "ffdcec254180dcd9a795e7bc3d3f683cabc03fb9e9b50b9a050ac2fa95adcf38",
+      "raw_rows": 52508,
+      "valid_rows": 52500,
+      "discarded_rows": 8
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-26",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_269.csv",
+      "downloaded_at": "2026-11-16T14:33:20.390948+00:00",
+      "sha256_uncompressed": "6f247dc4927e8028d7c2b67186401a425e32a6cfe27b0043557b4628d68031fb",
+      "raw_rows": 36588,
+      "valid_rows": 36584,
+      "discarded_rows": 4
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-27",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_270.csv",
+      "downloaded_at": "2026-11-16T14:33:21.630028+00:00",
+      "sha256_uncompressed": "40bdf33446bf2f261bcdcfc1cae693db48ed4fe71e23c4d151fe9419b745138c",
+      "raw_rows": 36240,
+      "valid_rows": 36239,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-28",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_271.csv",
+      "downloaded_at": "2026-11-16T14:33:22.951002+00:00",
+      "sha256_uncompressed": "3895939db12e0176e0f682d8a88af13717ddb45f5327f088629f8c71fa9f2307",
+      "raw_rows": 51376,
+      "valid_rows": 51374,
+      "discarded_rows": 2
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-29",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_272.csv",
+      "downloaded_at": "2026-11-16T14:33:24.131741+00:00",
+      "sha256_uncompressed": "e77eea7fdfac536d3e9d988af7c18031078c559a251e5feecfb6e398ead9e403",
+      "raw_rows": 54829,
+      "valid_rows": 54828,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-09-30",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_273.csv",
+      "downloaded_at": "2026-11-16T14:33:25.500443+00:00",
+      "sha256_uncompressed": "0ce7c06374f51ce1d0627932d2bd934884ac0b1cc1f4dab98dbe12226f0a5f72",
+      "raw_rows": 56707,
+      "valid_rows": 56707,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-01",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_274.csv",
+      "downloaded_at": "2026-11-16T14:33:26.411349+00:00",
+      "sha256_uncompressed": "41eccb33d3a3066a4071dc13f465aa7e24ad341b0a477b2eb15ecde34749893f",
+      "raw_rows": 54639,
+      "valid_rows": 54628,
+      "discarded_rows": 11
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-02",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_275.csv",
+      "downloaded_at": "2026-11-16T14:33:27.623857+00:00",
+      "sha256_uncompressed": "55fdb6af6b54bc06e769cf47cbf3b171c7ab330d695e7b71250d2812865e2ee5",
+      "raw_rows": 52674,
+      "valid_rows": 52674,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-03",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_276.csv",
+      "downloaded_at": "2026-11-16T14:33:28.524526+00:00",
+      "sha256_uncompressed": "dccc2a3e620b1ff7b60ff26636b347823d7285a2daf0004e2e4c08b98b2fb5a4",
+      "raw_rows": 38814,
+      "valid_rows": 38814,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-04",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_277.csv",
+      "downloaded_at": "2026-11-16T14:33:29.675590+00:00",
+      "sha256_uncompressed": "99043896bbb9cf5bcbdc06104256420ebbbda31add526c74072cde12f0e73060",
+      "raw_rows": 34880,
+      "valid_rows": 34880,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-05",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_278.csv",
+      "downloaded_at": "2026-11-16T14:33:30.941184+00:00",
+      "sha256_uncompressed": "7226cc6d6fe267a2018a881db3c347a760452dc21ce92a9e174d13715795c8eb",
+      "raw_rows": 50603,
+      "valid_rows": 50601,
+      "discarded_rows": 2
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-06",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_279.csv",
+      "downloaded_at": "2026-11-16T14:33:32.291653+00:00",
+      "sha256_uncompressed": "e285868bcd5c25a261ff3da5dea43d1e323a15b349014b041afcfc45a20d03cb",
+      "raw_rows": 52567,
+      "valid_rows": 52567,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-07",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_280.csv",
+      "downloaded_at": "2026-11-16T14:33:33.346286+00:00",
+      "sha256_uncompressed": "2a6a5ec2b4d7f394eb3f73ba863f93dabb88ea180cd20a270b4f50065ff26ee5",
+      "raw_rows": 53935,
+      "valid_rows": 53932,
+      "discarded_rows": 3
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-08",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_281.csv",
+      "downloaded_at": "2026-11-16T14:33:34.474156+00:00",
+      "sha256_uncompressed": "3b569c0928808187e5632578b2d56cb68b593735ba9ff56b724025a957f08b74",
+      "raw_rows": 54903,
+      "valid_rows": 54902,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-09",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_282.csv",
+      "downloaded_at": "2026-11-16T14:33:35.671957+00:00",
+      "sha256_uncompressed": "411ffcadb29a89c486bb417c75babc19da722074c7059880e6cb7e8df455ec54",
+      "raw_rows": 52889,
+      "valid_rows": 52881,
+      "discarded_rows": 8
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-10",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_283.csv",
+      "downloaded_at": "2026-11-16T14:33:36.535666+00:00",
+      "sha256_uncompressed": "d1a3f1c3c6aac0c57ba84514312278a2d60b4e6543e0bfa80890a12dbc4639de",
+      "raw_rows": 38931,
+      "valid_rows": 38931,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-11",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_284.csv",
+      "downloaded_at": "2026-11-16T14:33:37.664521+00:00",
+      "sha256_uncompressed": "28e8971cbd3444b7c7056be0339670ce358bb8afb2a72f5298f95cfbf4f76f56",
+      "raw_rows": 33188,
+      "valid_rows": 33184,
+      "discarded_rows": 4
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-12",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_285.csv",
+      "downloaded_at": "2026-11-16T14:33:38.968855+00:00",
+      "sha256_uncompressed": "858764952356adb4bdc05c94984f8809613a482634e7781a60dd01fface1ce61",
+      "raw_rows": 47143,
+      "valid_rows": 47142,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-13",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_286.csv",
+      "downloaded_at": "2026-11-16T14:33:40.202165+00:00",
+      "sha256_uncompressed": "3265c71bd9389ac6587b9e12d23e9c147d31d96986209868cad1e556653a8379",
+      "raw_rows": 49693,
+      "valid_rows": 49692,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-14",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_287.csv",
+      "downloaded_at": "2026-11-16T14:33:41.381020+00:00",
+      "sha256_uncompressed": "15bfcd74b17e5788196d1c7c1bced2ab333008930141c0d97205e71451a87aea",
+      "raw_rows": 50706,
+      "valid_rows": 50705,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-15",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_288.csv",
+      "downloaded_at": "2026-11-16T14:33:42.474228+00:00",
+      "sha256_uncompressed": "ed79abfeb8d22152b92cb782b999f2057ce7f228e3679b900f4a4b47cdc246b4",
+      "raw_rows": 50106,
+      "valid_rows": 50106,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-16",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_289.csv",
+      "downloaded_at": "2026-11-16T14:33:43.642975+00:00",
+      "sha256_uncompressed": "143c491863f43c5bddf4218e4885381dffc95302e32aca1aed310e651f487f3b",
+      "raw_rows": 49937,
+      "valid_rows": 49936,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-17",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_290.csv",
+      "downloaded_at": "2026-11-16T14:33:44.608587+00:00",
+      "sha256_uncompressed": "8131bb31cfd7c5fa993bf800d588275404dbf1fb58e897b8e325f84a4c0c3c10",
+      "raw_rows": 38043,
+      "valid_rows": 38040,
+      "discarded_rows": 3
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-18",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_291.csv",
+      "downloaded_at": "2026-11-16T14:33:45.813251+00:00",
+      "sha256_uncompressed": "2157ece5713ba76aed0ab45f4e1a19daf6537332120bd7dfbde181bd730ee026",
+      "raw_rows": 36212,
+      "valid_rows": 36212,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-19",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_292.csv",
+      "downloaded_at": "2026-11-16T14:33:47.205164+00:00",
+      "sha256_uncompressed": "0aba44ebd869ad1c7fbbb7e3efbc488c10f90369e9fc57990514fb22964a5858",
+      "raw_rows": 49314,
+      "valid_rows": 49314,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-20",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_293.csv",
+      "downloaded_at": "2026-11-16T14:33:48.370350+00:00",
+      "sha256_uncompressed": "b7bfb0e006c337bdfd1ad540a8796319a9db9073da0ef4bb1393b73959305110",
+      "raw_rows": 52590,
+      "valid_rows": 52589,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-21",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_294.csv",
+      "downloaded_at": "2026-11-16T14:33:49.398874+00:00",
+      "sha256_uncompressed": "d4edc619885231fde351dca80eedfcd840b23b822de5aa48d8724fd51d1d61b3",
+      "raw_rows": 53437,
+      "valid_rows": 53435,
+      "discarded_rows": 2
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-22",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_295.csv",
+      "downloaded_at": "2026-11-16T14:33:50.752004+00:00",
+      "sha256_uncompressed": "9e1c183463db59a5af295f03bcf5c1e9be8c298fc89e641b4ba4c71217fc76a3",
+      "raw_rows": 54197,
+      "valid_rows": 54195,
+      "discarded_rows": 2
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-23",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_296.csv",
+      "downloaded_at": "2026-11-16T14:33:51.810502+00:00",
+      "sha256_uncompressed": "aa07884107af9857f7b90fa7075ea682d83ddf69be38ac7c80d1d4864fee2f81",
+      "raw_rows": 53687,
+      "valid_rows": 53683,
+      "discarded_rows": 4
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-24",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_297.csv",
+      "downloaded_at": "2026-11-16T14:33:52.706254+00:00",
+      "sha256_uncompressed": "345797d1b7866e6e5797d7307f82d9d5efe72d48fa6dca9ebe9c941aa589f0fa",
+      "raw_rows": 39296,
+      "valid_rows": 39293,
+      "discarded_rows": 3
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-25",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_298.csv",
+      "downloaded_at": "2026-11-16T14:33:53.831155+00:00",
+      "sha256_uncompressed": "6676010dd17cc17ad03d5ace603e0800b0d1f3ce64dee80db984bd1806f2825f",
+      "raw_rows": 36206,
+      "valid_rows": 35800,
+      "discarded_rows": 406
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-26",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_299.csv",
+      "downloaded_at": "2026-11-16T14:33:55.262648+00:00",
+      "sha256_uncompressed": "9f95f0a1ca009fee87447306a98e47151c0236ec83261cf6e4323a8d67aa21fd",
+      "raw_rows": 51194,
+      "valid_rows": 51194,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-27",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_300.csv",
+      "downloaded_at": "2026-11-16T14:33:55.807914+00:00",
+      "sha256_uncompressed": "8284e47a9127a1d9fec970522babc7b202a835f805b5d72f9843b7637aad2d1b",
+      "raw_rows": 53454,
+      "valid_rows": 53449,
+      "discarded_rows": 5
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-28",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_301.csv",
+      "downloaded_at": "2026-11-16T14:33:57.488053+00:00",
+      "sha256_uncompressed": "6a8ecad088d9428192cb70a296a7f14303c244eeab60b1a35a4f4bdbe0999a34",
+      "raw_rows": 54901,
+      "valid_rows": 54898,
+      "discarded_rows": 3
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-29",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_302.csv",
+      "downloaded_at": "2026-11-16T14:33:58.843178+00:00",
+      "sha256_uncompressed": "87ba4bed09f11db79fb096139cc5b7ca50364900a0261eb13fc03f6bc9d75e24",
+      "raw_rows": 54840,
+      "valid_rows": 54835,
+      "discarded_rows": 5
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-30",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_303.csv",
+      "downloaded_at": "2026-11-16T14:33:59.907938+00:00",
+      "sha256_uncompressed": "49d14cc6797bd7ef483521f3b1d5cca6a714a6c25f744fb1bb7e7d2826854d84",
+      "raw_rows": 54002,
+      "valid_rows": 54002,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-10-31",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_304.csv",
+      "downloaded_at": "2026-11-16T14:34:00.915770+00:00",
+      "sha256_uncompressed": "6fe9579a7510b8a85f724a1caa6345d5a7fd6fde87fd7e9d7441011ef1a18c53",
+      "raw_rows": 39159,
+      "valid_rows": 39158,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-11-01",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_305.csv",
+      "downloaded_at": "2026-11-16T14:34:01.925945+00:00",
+      "sha256_uncompressed": "7c0863fca1975410764c1be939b2b31df33bc0c5c81f66ebe993e41e54b15864",
+      "raw_rows": 34955,
+      "valid_rows": 34955,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-11-02",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_306.csv",
+      "downloaded_at": "2026-11-16T14:34:03.191171+00:00",
+      "sha256_uncompressed": "278165efa9b406d5ca59e8583de0b13ccca93f6e13d9f51b50b700c16cd03977",
+      "raw_rows": 50654,
+      "valid_rows": 50650,
+      "discarded_rows": 4
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-11-03",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_307.csv",
+      "downloaded_at": "2026-11-16T14:34:04.363343+00:00",
+      "sha256_uncompressed": "5fe61d3c55e041e0bfd1a113fa1127e136d97d7d13f8125415bf47e2baa40950",
+      "raw_rows": 52446,
+      "valid_rows": 52443,
+      "discarded_rows": 3
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-11-04",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_308.csv",
+      "downloaded_at": "2026-11-16T14:34:05.581193+00:00",
+      "sha256_uncompressed": "fd4c010abb6114e99fe27de2dd1697053e13e0af62fe3435eaa67e37c45da7eb",
+      "raw_rows": 53307,
+      "valid_rows": 53305,
+      "discarded_rows": 2
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-11-05",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_309.csv",
+      "downloaded_at": "2026-11-16T14:34:06.820702+00:00",
+      "sha256_uncompressed": "fc278d4335ed5f5f3018ee3d76c1269d2c2d742a09d61856c8e207f78a11b3cc",
+      "raw_rows": 53564,
+      "valid_rows": 53563,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-11-06",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_310.csv",
+      "downloaded_at": "2026-11-16T14:34:07.882521+00:00",
+      "sha256_uncompressed": "daddc9add3501980ffe42e724b193bbd755beaaa23fee0a127c7719446f53789",
+      "raw_rows": 51845,
+      "valid_rows": 51844,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-11-07",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_311.csv",
+      "downloaded_at": "2026-11-16T14:34:08.804526+00:00",
+      "sha256_uncompressed": "96f6f245d29d0193c2ae802610d9c6cc18ee78a84bfaaac9c14646e18dcf4cdc",
+      "raw_rows": 37809,
+      "valid_rows": 37809,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-11-08",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_312.csv",
+      "downloaded_at": "2026-11-16T14:34:10.044509+00:00",
+      "sha256_uncompressed": "8db128efb7bcf500fe4d9dd244c89b99699c457697f603e734151c42ba39407f",
+      "raw_rows": 37526,
+      "valid_rows": 37525,
+      "discarded_rows": 1
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-11-09",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_313.csv",
+      "downloaded_at": "2026-11-16T14:34:11.284745+00:00",
+      "sha256_uncompressed": "793466313b9b6abf997ace049e8340b6ffa3adc5d82f24eac09ed5f2346be726",
+      "raw_rows": 49783,
+      "valid_rows": 49783,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-11-10",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_314.csv",
+      "downloaded_at": "2026-11-16T14:34:12.429686+00:00",
+      "sha256_uncompressed": "d785a847f631dc43fd71af54c5eab3e0c1c93f337cfb4006a016fd6025dd578c",
+      "raw_rows": 52591,
+      "valid_rows": 52588,
+      "discarded_rows": 3
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-11-11",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_315.csv",
+      "downloaded_at": "2026-11-16T14:34:13.712323+00:00",
+      "sha256_uncompressed": "373bbdcafbe33f9ff5f33740baf7515ed503d5f7e7c1c40c8a4a3e2a19843d46",
+      "raw_rows": 54178,
+      "valid_rows": 54175,
+      "discarded_rows": 3
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-11-12",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_316.csv",
+      "downloaded_at": "2026-11-16T14:34:14.866288+00:00",
+      "sha256_uncompressed": "f9d1c3e712f8bab43ac840a586b41ddb8071e6a6b702faf241738dd33b513461",
+      "raw_rows": 55047,
+      "valid_rows": 55042,
+      "discarded_rows": 5
+    },
+    {
+      "station_id": 20029,
+      "date": "2026-11-13",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_20029_26_317.csv",
+      "downloaded_at": "2026-11-16T14:34:15.927831+00:00",
+      "sha256_uncompressed": "d90239f4d525d89b4b60ff351de56ad59c8ea59326527f0f8e44696743743a47",
+      "raw_rows": 53337,
+      "valid_rows": 53328,
+      "discarded_rows": 9
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-01",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_244.csv",
+      "downloaded_at": "2026-11-16T14:34:16.841123+00:00",
+      "sha256_uncompressed": "772e3a566b15bb8af11da667ddfdd5e58b71a4d38219dd3f6242e181f209035e",
+      "raw_rows": 32623,
+      "valid_rows": 31744,
+      "discarded_rows": 879
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-02",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_245.csv",
+      "downloaded_at": "2026-11-16T14:34:18.097620+00:00",
+      "sha256_uncompressed": "3bf8b247eaa596381531fe77a4d2a45e15eaf9c83a5fdaf61794fdab648d8bc8",
+      "raw_rows": 33641,
+      "valid_rows": 32729,
+      "discarded_rows": 912
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-03",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_246.csv",
+      "downloaded_at": "2026-11-16T14:34:19.182031+00:00",
+      "sha256_uncompressed": "eaaa027cfd755fc412f230e1ddb04df6b6a836928e62761709d0370ff321d2a0",
+      "raw_rows": 33004,
+      "valid_rows": 32278,
+      "discarded_rows": 726
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-04",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_247.csv",
+      "downloaded_at": "2026-11-16T14:34:20.290556+00:00",
+      "sha256_uncompressed": "f7e2cd117723adbe13dada74ec0ac5297a589ec1a3f9d9f25b96092ff28adda7",
+      "raw_rows": 32626,
+      "valid_rows": 31984,
+      "discarded_rows": 642
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-06",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_249.csv",
+      "downloaded_at": "2026-11-16T14:34:55.451581+00:00",
+      "sha256_uncompressed": "2c6857efff6acfebb8eab6b0c3f150018cd10fb732280ff6f064e289ff9de9fc",
+      "raw_rows": 25091,
+      "valid_rows": 24814,
+      "discarded_rows": 277
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-08",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_251.csv",
+      "downloaded_at": "2026-11-16T14:35:12.411730+00:00",
+      "sha256_uncompressed": "61ea17f03c40d6b966e69f4aedb528cb1691ef2e586d003db92a9bbcb35110f6",
+      "raw_rows": 31512,
+      "valid_rows": 30758,
+      "discarded_rows": 754
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-09",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_252.csv",
+      "downloaded_at": "2026-11-16T14:35:14.061712+00:00",
+      "sha256_uncompressed": "549713421013f0385544b581150fe7aa90c57b75f826216c3a2347986acc1153",
+      "raw_rows": 32256,
+      "valid_rows": 31668,
+      "discarded_rows": 588
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-10",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_253.csv",
+      "downloaded_at": "2026-11-16T14:35:15.091519+00:00",
+      "sha256_uncompressed": "e845d57c5c74d090946822e6013beabdf84a4b3311a7aa78089931dcbcc2e412",
+      "raw_rows": 32254,
+      "valid_rows": 31694,
+      "discarded_rows": 560
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-11",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_254.csv",
+      "downloaded_at": "2026-11-16T14:35:16.980654+00:00",
+      "sha256_uncompressed": "2e708374235607d3242fa82637ac816f1100e2ffd0ce5f694ce90b30fcbc783d",
+      "raw_rows": 31235,
+      "valid_rows": 30836,
+      "discarded_rows": 399
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-13",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_256.csv",
+      "downloaded_at": "2026-11-16T14:35:21.870841+00:00",
+      "sha256_uncompressed": "1de58a5661f88a521b4991a292b07abfc75a6418817692201d82c219c51e1c9a",
+      "raw_rows": 22187,
+      "valid_rows": 21963,
+      "discarded_rows": 224
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-14",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_257.csv",
+      "downloaded_at": "2026-11-16T14:35:24.577376+00:00",
+      "sha256_uncompressed": "5e065379ffa54d8ec9a81aab279d0bcd6730d628030632135ba182ce60acf7a2",
+      "raw_rows": 29857,
+      "valid_rows": 29408,
+      "discarded_rows": 449
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-15",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_258.csv",
+      "downloaded_at": "2026-11-16T14:35:24.830552+00:00",
+      "sha256_uncompressed": "3c96f2c5759c3d9ba2b7e67b12efc8d26eb70403d254158a5e87b274e60aa76a",
+      "raw_rows": 31624,
+      "valid_rows": 31151,
+      "discarded_rows": 473
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-16",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_259.csv",
+      "downloaded_at": "2026-11-16T14:35:26.348712+00:00",
+      "sha256_uncompressed": "f71afa54e92d300bb81412121d2ae908df712be0d87e99ae0690e6fcddb459c2",
+      "raw_rows": 32956,
+      "valid_rows": 32082,
+      "discarded_rows": 874
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-17",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_260.csv",
+      "downloaded_at": "2026-11-16T14:35:27.470562+00:00",
+      "sha256_uncompressed": "4ecf829042fe94dfb724fc48ec1fc12ec07eba4f2f58be4fe38ed4e4829d86a3",
+      "raw_rows": 32355,
+      "valid_rows": 31564,
+      "discarded_rows": 791
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-18",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_261.csv",
+      "downloaded_at": "2026-11-16T14:35:28.609531+00:00",
+      "sha256_uncompressed": "8b8d4ec3b4a4826910ba5506ff742c893963403757700691063849006c7f74b3",
+      "raw_rows": 30926,
+      "valid_rows": 30525,
+      "discarded_rows": 401
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-19",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_262.csv",
+      "downloaded_at": "2026-11-16T14:35:29.636316+00:00",
+      "sha256_uncompressed": "8c6e0af823758aa2b3ff8010585b6c9e2e63baa56f3c81efdfdb512639129ea2",
+      "raw_rows": 25275,
+      "valid_rows": 25007,
+      "discarded_rows": 268
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-20",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_263.csv",
+      "downloaded_at": "2026-11-16T14:35:31.006867+00:00",
+      "sha256_uncompressed": "8ca879ef85eec695eec0f65cd1a9cb248b29492f0be76fa8e289f95fd1e4e30d",
+      "raw_rows": 23405,
+      "valid_rows": 23181,
+      "discarded_rows": 224
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-21",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_264.csv",
+      "downloaded_at": "2026-11-16T14:35:31.972083+00:00",
+      "sha256_uncompressed": "839a9c4bf99c926d47635a793ac3784e39203d6cd1c06a093b1f0fdfb3ff4ed7",
+      "raw_rows": 29883,
+      "valid_rows": 29531,
+      "discarded_rows": 352
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-23",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_266.csv",
+      "downloaded_at": "2026-11-16T14:35:34.483675+00:00",
+      "sha256_uncompressed": "599c739b88c36752619de4a26c0571250ba2eb94ee66bbc7cee1b4d056406f68",
+      "raw_rows": 31990,
+      "valid_rows": 31425,
+      "discarded_rows": 565
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-24",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_267.csv",
+      "downloaded_at": "2026-11-16T14:35:36.555336+00:00",
+      "sha256_uncompressed": "8163993f3600fde7e77e18e1a5b999233eb5d97951f1044eebc101fb584f8ff8",
+      "raw_rows": 32611,
+      "valid_rows": 32089,
+      "discarded_rows": 522
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-25",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_268.csv",
+      "downloaded_at": "2026-11-16T14:35:38.369765+00:00",
+      "sha256_uncompressed": "61f6280c17e8d203f51ac21585fe2e0e6c318e7fa5171daa06f8c41793b983ee",
+      "raw_rows": 32691,
+      "valid_rows": 32128,
+      "discarded_rows": 563
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-26",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_269.csv",
+      "downloaded_at": "2026-11-16T14:35:39.976184+00:00",
+      "sha256_uncompressed": "c3acb1feeecf6688e26df7297b8bb69a58121cfccdf911f7122e797d1ef58498",
+      "raw_rows": 23645,
+      "valid_rows": 23400,
+      "discarded_rows": 245
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-27",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_270.csv",
+      "downloaded_at": "2026-11-16T14:35:41.846435+00:00",
+      "sha256_uncompressed": "e0f4d5cf42b628360f0dc43d6f5208762f26fb2ae64e9f0e13fb6cd10168dad4",
+      "raw_rows": 23821,
+      "valid_rows": 23618,
+      "discarded_rows": 203
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-28",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_271.csv",
+      "downloaded_at": "2026-11-16T14:35:43.842561+00:00",
+      "sha256_uncompressed": "96565628f02795c67942782a699f818a988738a4a721a9c733d5f8bfe1e64ab4",
+      "raw_rows": 29575,
+      "valid_rows": 29240,
+      "discarded_rows": 335
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-29",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_272.csv",
+      "downloaded_at": "2026-11-16T14:35:45.966050+00:00",
+      "sha256_uncompressed": "a85cca23b17580fd3fb0a5a7a59af6f6fa7c884573339590feaffbe57816867d",
+      "raw_rows": 32285,
+      "valid_rows": 31750,
+      "discarded_rows": 535
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-30",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_273.csv",
+      "downloaded_at": "2026-11-16T14:35:48.267172+00:00",
+      "sha256_uncompressed": "158ba7580f48b06683bfa96b2d594333045b9e0d336aeaaad1486d77e6b28e4f",
+      "raw_rows": 34121,
+      "valid_rows": 33414,
+      "discarded_rows": 707
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-22",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_265.csv",
+      "downloaded_at": "2026-11-16T14:35:48.514916+00:00",
+      "sha256_uncompressed": "273e43acf7f901ec9d5a58313b79c5e7b822b5f22739ece0cd5e144e054131b1",
+      "raw_rows": 31933,
+      "valid_rows": 31134,
+      "discarded_rows": 799
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-01",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_274.csv",
+      "downloaded_at": "2026-11-16T14:35:50.658574+00:00",
+      "sha256_uncompressed": "0cc06189be10557ea6ab9da970e484ca8ca820592cde98ed8017d70e970728da",
+      "raw_rows": 32494,
+      "valid_rows": 32003,
+      "discarded_rows": 491
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-02",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_275.csv",
+      "downloaded_at": "2026-11-16T14:35:51.797076+00:00",
+      "sha256_uncompressed": "3185e29b1886538129b7917e9f01558f0c088d597002c398c04e8054a146d0b7",
+      "raw_rows": 30795,
+      "valid_rows": 30460,
+      "discarded_rows": 335
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-03",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_276.csv",
+      "downloaded_at": "2026-11-16T14:35:52.738392+00:00",
+      "sha256_uncompressed": "0f188be42997e256264a1060d79926ddada7e813cc9daec15507ba211c297063",
+      "raw_rows": 25567,
+      "valid_rows": 25257,
+      "discarded_rows": 310
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-04",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_277.csv",
+      "downloaded_at": "2026-11-16T14:35:53.765192+00:00",
+      "sha256_uncompressed": "deba629fe3fb33b082a1e9e46e9887460f2b3ffd0d9d0423218cc8e89f792052",
+      "raw_rows": 22768,
+      "valid_rows": 22541,
+      "discarded_rows": 227
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-05",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_278.csv",
+      "downloaded_at": "2026-11-16T14:35:55.186065+00:00",
+      "sha256_uncompressed": "2ccd79e6db0cdb4ae5599981043f21f362366d9ebc611b1c600cd51a6e928308",
+      "raw_rows": 29035,
+      "valid_rows": 28690,
+      "discarded_rows": 345
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-06",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_279.csv",
+      "downloaded_at": "2026-11-16T14:35:56.226495+00:00",
+      "sha256_uncompressed": "83f51d43f635a8197be6f7107e97d7e3c8647a6e29d1c001e5e1e64885768438",
+      "raw_rows": 31160,
+      "valid_rows": 30581,
+      "discarded_rows": 579
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-07",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_280.csv",
+      "downloaded_at": "2026-11-16T14:35:57.551912+00:00",
+      "sha256_uncompressed": "db9b9c332212009f23233e7e2c14d7f2cbf8c3f8c2bf65d03267a01233d8be3e",
+      "raw_rows": 31750,
+      "valid_rows": 31305,
+      "discarded_rows": 445
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-09",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_282.csv",
+      "downloaded_at": "2026-11-16T14:35:59.720576+00:00",
+      "sha256_uncompressed": "75ab2cca4ef0ec1626ef483a1c9c7649ebd20a640275ae41568130a6bbd34a5e",
+      "raw_rows": 30225,
+      "valid_rows": 29920,
+      "discarded_rows": 305
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-10",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_283.csv",
+      "downloaded_at": "2026-11-16T14:36:01.618478+00:00",
+      "sha256_uncompressed": "6d9d587dadac03703bbb830a1e5f7d97c271983fafdf8fb7e8fcad592370f81f",
+      "raw_rows": 23875,
+      "valid_rows": 23660,
+      "discarded_rows": 215
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-11",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_284.csv",
+      "downloaded_at": "2026-11-16T14:36:03.931877+00:00",
+      "sha256_uncompressed": "e6c8e237eca80b9329d793c90cc2dfe2e130524e58999b234b24a6a4bd3e1691",
+      "raw_rows": 20221,
+      "valid_rows": 20057,
+      "discarded_rows": 164
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-12",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_285.csv",
+      "downloaded_at": "2026-11-16T14:36:06.147232+00:00",
+      "sha256_uncompressed": "00b24119981393536f0353ab8926a46256bc665c0aca5d6a86a6f2e693cbe892",
+      "raw_rows": 25847,
+      "valid_rows": 25589,
+      "discarded_rows": 258
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-13",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_286.csv",
+      "downloaded_at": "2026-11-16T14:36:08.199385+00:00",
+      "sha256_uncompressed": "a7d3837386cce41a531054afa94a2b0b0c729b771a7bf86a83937ce1b281b50d",
+      "raw_rows": 28235,
+      "valid_rows": 28013,
+      "discarded_rows": 222
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-14",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_287.csv",
+      "downloaded_at": "2026-11-16T14:36:10.097315+00:00",
+      "sha256_uncompressed": "facba7e6756242e18dbc87e0f495eedbebbd26920f00b94961e7f327a3657c81",
+      "raw_rows": 28498,
+      "valid_rows": 28277,
+      "discarded_rows": 221
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-15",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_288.csv",
+      "downloaded_at": "2026-11-16T14:36:12.043585+00:00",
+      "sha256_uncompressed": "a2da9f4eef6fcc1d1f7de7c6da3b89637281e108ca6389348557ee9a429475c3",
+      "raw_rows": 28477,
+      "valid_rows": 28189,
+      "discarded_rows": 288
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-09-12",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_255.csv",
+      "downloaded_at": "2026-11-16T14:36:13.248881+00:00",
+      "sha256_uncompressed": "995f66f4c4d728f1572004ac0da260c8e52ff79c4e17206d065667020b186975",
+      "raw_rows": 23926,
+      "valid_rows": 23715,
+      "discarded_rows": 211
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-16",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_289.csv",
+      "downloaded_at": "2026-11-16T14:36:14.033887+00:00",
+      "sha256_uncompressed": "e22690f9c297ea6ad7d21422f0f68dbdae2beeba16963d4cfd305e5c073d2759",
+      "raw_rows": 28644,
+      "valid_rows": 28334,
+      "discarded_rows": 310
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-18",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_291.csv",
+      "downloaded_at": "2026-11-16T14:36:16.163311+00:00",
+      "sha256_uncompressed": "f428c1018893acebafe8ae634de7b696d423642a563e3e82e748fc574dcefe72",
+      "raw_rows": 23817,
+      "valid_rows": 23666,
+      "discarded_rows": 151
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-19",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_292.csv",
+      "downloaded_at": "2026-11-16T14:36:18.325103+00:00",
+      "sha256_uncompressed": "177d686188ab58cb0bc1c298eedd21fd25724d06a8c8c6beb425c3836c2af30c",
+      "raw_rows": 28807,
+      "valid_rows": 28479,
+      "discarded_rows": 328
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-20",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_293.csv",
+      "downloaded_at": "2026-11-16T14:36:20.491177+00:00",
+      "sha256_uncompressed": "185df4f2b2f5fcb8e8e31030162cc0012689b453eedd94fadf44b515f17f3b64",
+      "raw_rows": 30391,
+      "valid_rows": 30024,
+      "discarded_rows": 367
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-17",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_290.csv",
+      "downloaded_at": "2026-11-16T14:36:31.422716+00:00",
+      "sha256_uncompressed": "1cd722b20be236511f1a0fa3e202204d6e7257f817c94a723924f91147b5ceb1",
+      "raw_rows": 23441,
+      "valid_rows": 23199,
+      "discarded_rows": 242
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-08",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_281.csv",
+      "downloaded_at": "2026-11-16T14:36:31.670886+00:00",
+      "sha256_uncompressed": "4825e4ecaad996de4342c9dbee22fa36c5917e4118c2df68ffddbf783f71b468",
+      "raw_rows": 32281,
+      "valid_rows": 31881,
+      "discarded_rows": 400
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-23",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_296.csv",
+      "downloaded_at": "2026-11-16T14:36:34.669073+00:00",
+      "sha256_uncompressed": "041fcb625e353279145bfca1de19a0098cff79d45d04f7272a8c7a350ced13ae",
+      "raw_rows": 30586,
+      "valid_rows": 30310,
+      "discarded_rows": 276
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-24",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_297.csv",
+      "downloaded_at": "2026-11-16T14:36:36.790067+00:00",
+      "sha256_uncompressed": "29b1a713c18d4ccb65cbb3e1121a305c3b25d87ed1d986b32ecff5378628381c",
+      "raw_rows": 24701,
+      "valid_rows": 24532,
+      "discarded_rows": 169
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-25",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_298.csv",
+      "downloaded_at": "2026-11-16T14:36:38.620210+00:00",
+      "sha256_uncompressed": "dec2bf3da74c33cb827018cc628681962a491055e7bbffcebd3d345771e8c94c",
+      "raw_rows": 23392,
+      "valid_rows": 23184,
+      "discarded_rows": 208
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-22",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_295.csv",
+      "downloaded_at": "2026-11-16T14:36:48.668364+00:00",
+      "sha256_uncompressed": "58a53a85aa204b50efc643775e66a89e0923fc6b5d664371d9d070b8acd5ced8",
+      "raw_rows": 31908,
+      "valid_rows": 31522,
+      "discarded_rows": 386
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-27",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_300.csv",
+      "downloaded_at": "2026-11-16T14:36:50.647625+00:00",
+      "sha256_uncompressed": "0a26aad61b3ea7c9b5ead9a20b9ec109e4ff308270e8f75e18115184039e8bb6",
+      "raw_rows": 31230,
+      "valid_rows": 30799,
+      "discarded_rows": 431
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-28",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_301.csv",
+      "downloaded_at": "2026-11-16T14:36:52.734328+00:00",
+      "sha256_uncompressed": "73f8a0630b9502ed2f8d9a88cb34e93f27e721c4eb5ee3ac40c4ea59abf8d981",
+      "raw_rows": 32642,
+      "valid_rows": 31839,
+      "discarded_rows": 803
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-26",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_299.csv",
+      "downloaded_at": "2026-11-16T14:37:14.089113+00:00",
+      "sha256_uncompressed": "f826fabd32a6d84a34cbd53169b36d648ae1c40078b2a99ae4998325c936edeb",
+      "raw_rows": 29568,
+      "valid_rows": 29236,
+      "discarded_rows": 332
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-30",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_303.csv",
+      "downloaded_at": "2026-11-16T14:37:16.105701+00:00",
+      "sha256_uncompressed": "c2516e6b0546995ea220ba864cc845ae18f64d10bf763ac32b75d007e9ce2ca8",
+      "raw_rows": 31818,
+      "valid_rows": 31464,
+      "discarded_rows": 354
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-31",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_304.csv",
+      "downloaded_at": "2026-11-16T14:37:18.043145+00:00",
+      "sha256_uncompressed": "da2b6d66ed5520528fd56deda3a6b7f157d24c69c6b2ad614d35aa7ce13ced75",
+      "raw_rows": 24750,
+      "valid_rows": 24503,
+      "discarded_rows": 247
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-11-01",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_305.csv",
+      "downloaded_at": "2026-11-16T14:37:20.049653+00:00",
+      "sha256_uncompressed": "7bb6b1abbb1f2e0aeed6098403e29c6d195ff63a87936eba72475591ec8fb9f7",
+      "raw_rows": 22105,
+      "valid_rows": 21934,
+      "discarded_rows": 171
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-11-02",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_306.csv",
+      "downloaded_at": "2026-11-16T14:37:22.101217+00:00",
+      "sha256_uncompressed": "48393e726b0d77b35deaf4820e4bcc83777c8a400b392b4c04963c6201686740",
+      "raw_rows": 28625,
+      "valid_rows": 28172,
+      "discarded_rows": 453
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-11-03",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_307.csv",
+      "downloaded_at": "2026-11-16T14:37:25.098121+00:00",
+      "sha256_uncompressed": "fb3785225d081ec95f588fbe26bd507e55f870a73b1471ff5cf28c152724df28",
+      "raw_rows": 30290,
+      "valid_rows": 30009,
+      "discarded_rows": 281
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-10-29",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_302.csv",
+      "downloaded_at": "2026-11-16T14:37:28.501609+00:00",
+      "sha256_uncompressed": "a2e7d6f9a462a4b0b5a830db7afadd53199597599d0513217334eb859783e0ab",
+      "raw_rows": 31394,
+      "valid_rows": 31132,
+      "discarded_rows": 262
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-11-05",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_309.csv",
+      "downloaded_at": "2026-11-16T14:37:30.950295+00:00",
+      "sha256_uncompressed": "f3e763f48a75b1fa7f4e7809d4b660a9f4ae5beee8cbbf2d425cee1641b23b26",
+      "raw_rows": 31312,
+      "valid_rows": 30943,
+      "discarded_rows": 369
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-11-06",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_310.csv",
+      "downloaded_at": "2026-11-16T14:37:33.214440+00:00",
+      "sha256_uncompressed": "897c7aaa5195c9016810df56966e1f1b77cfefe4b500db5c8cd59f18cfaf450b",
+      "raw_rows": 29243,
+      "valid_rows": 28977,
+      "discarded_rows": 266
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-11-07",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_311.csv",
+      "downloaded_at": "2026-11-16T14:37:35.773637+00:00",
+      "sha256_uncompressed": "b1c0db4ec6a15636a3d2246c34999796c7e265f2f4c9ceade11bc472f6d6f522",
+      "raw_rows": 22971,
+      "valid_rows": 22793,
+      "discarded_rows": 178
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-11-08",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_312.csv",
+      "downloaded_at": "2026-11-16T14:38:12.254432+00:00",
+      "sha256_uncompressed": "94738c231775d804b1791755f388f6f6ee51f6b4a88dd9ad368e936f14e10be0",
+      "raw_rows": 23302,
+      "valid_rows": 23163,
+      "discarded_rows": 139
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-11-10",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_314.csv",
+      "downloaded_at": "2026-11-16T14:38:46.364671+00:00",
+      "sha256_uncompressed": "2cddf99a393e57493e7116d904e8e455e26b99ac4ee1cfa27e28e5ba58b0ab59",
+      "raw_rows": 30596,
+      "valid_rows": 30273,
+      "discarded_rows": 323
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-11-12",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_316.csv",
+      "downloaded_at": "2026-11-16T14:38:59.863022+00:00",
+      "sha256_uncompressed": "44a5a77714f437ce90f8451f02ffe12ad3abc3d32d2b68e344b39b8e6ea25b5b",
+      "raw_rows": 31855,
+      "valid_rows": 31490,
+      "discarded_rows": 365
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-11-13",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_317.csv",
+      "downloaded_at": "2026-11-16T14:39:17.370128+00:00",
+      "sha256_uncompressed": "4ce4f6f7ba685f397607091367dcada9c25cafe262b2fbd52ddf480c76caf463",
+      "raw_rows": 30302,
+      "valid_rows": 29993,
+      "discarded_rows": 309
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-11-11",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_315.csv",
+      "downloaded_at": "2026-11-16T14:39:22.029489+00:00",
+      "sha256_uncompressed": "c15c56de2ccdc34d57cfd12c4ad7c4a107798f5418b51ecdd938c042f970d8cc",
+      "raw_rows": 31514,
+      "valid_rows": 31210,
+      "discarded_rows": 304
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-01",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_244.csv",
+      "downloaded_at": "2026-11-16T14:39:22.518047+00:00",
+      "sha256_uncompressed": "5f1c626b63dd85eb25b26ad1264b4c26a1968903106027e74bfa4519ac914eae",
+      "raw_rows": 114290,
+      "valid_rows": 113668,
+      "discarded_rows": 622
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-02",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_245.csv",
+      "downloaded_at": "2026-11-16T14:39:29.189188+00:00",
+      "sha256_uncompressed": "fcb5c214233643ce1135253cdc78b7297bcebfb089fc8f3ede8747cdcf908c7d",
+      "raw_rows": 114686,
+      "valid_rows": 114120,
+      "discarded_rows": 566
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-03",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_246.csv",
+      "downloaded_at": "2026-11-16T14:39:30.046365+00:00",
+      "sha256_uncompressed": "825aa48cee50ffbb9d7e45696d0bb674df8677f4d1129e30901820d17b043221",
+      "raw_rows": 114549,
+      "valid_rows": 113951,
+      "discarded_rows": 598
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-04",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_247.csv",
+      "downloaded_at": "2026-11-16T14:39:33.521282+00:00",
+      "sha256_uncompressed": "578e2860ecf16f869946af7963d4cc35ce008eedbd0aef09fc4f02b6a15c8c14",
+      "raw_rows": 113265,
+      "valid_rows": 112645,
+      "discarded_rows": 620
+    },
+    {
+      "station_id": 23117,
+      "date": "2026-11-09",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_117_26_313.csv",
+      "downloaded_at": "2026-11-16T14:39:34.841067+00:00",
+      "sha256_uncompressed": "7ddc9acb53f8ebb54f84f10ffac9fe2375903fb78d62e0b913ebdbddced37b34",
+      "raw_rows": 28292,
+      "valid_rows": 27998,
+      "discarded_rows": 294
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-06",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_249.csv",
+      "downloaded_at": "2026-11-16T14:39:38.456823+00:00",
+      "sha256_uncompressed": "4fa61b5ded5b3f8ab6ce65c5401042424581cd8e9486b1ea01316a45778ff0d5",
+      "raw_rows": 84922,
+      "valid_rows": 84479,
+      "discarded_rows": 443
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-07",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_250.csv",
+      "downloaded_at": "2026-11-16T14:39:41.403995+00:00",
+      "sha256_uncompressed": "ab45d839b3d1663514b1fbe7f5e3dfe2176939cb1b1268052c3c2a00f56ae893",
+      "raw_rows": 111442,
+      "valid_rows": 110937,
+      "discarded_rows": 505
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-08",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_251.csv",
+      "downloaded_at": "2026-11-16T14:39:43.284820+00:00",
+      "sha256_uncompressed": "7e0f46ada31bbe10c7735d2185901e8b123ac5ff12068d8a8301c6b9b3c05359",
+      "raw_rows": 111296,
+      "valid_rows": 110784,
+      "discarded_rows": 512
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-09",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_252.csv",
+      "downloaded_at": "2026-11-16T14:39:52.190911+00:00",
+      "sha256_uncompressed": "5e773d3de990b284a07e94a28cd262b0f61c86c91f24ae20d96d27bad4de44ab",
+      "raw_rows": 112077,
+      "valid_rows": 111558,
+      "discarded_rows": 519
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-05",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_248.csv",
+      "downloaded_at": "2026-11-16T14:39:52.280124+00:00",
+      "sha256_uncompressed": "6f69e42c92cb18214f6519d2b8994369faaf301fcfd4a81a16c1fa7f5398fe66",
+      "raw_rows": 88065,
+      "valid_rows": 87700,
+      "discarded_rows": 365
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-10",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_253.csv",
+      "downloaded_at": "2026-11-16T14:39:54.930424+00:00",
+      "sha256_uncompressed": "50f526753231e285e73b0e863461b2877b4ab5248cd649941ece8e21bb30d9c4",
+      "raw_rows": 112165,
+      "valid_rows": 111589,
+      "discarded_rows": 576
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-11",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_254.csv",
+      "downloaded_at": "2026-11-16T14:39:59.129899+00:00",
+      "sha256_uncompressed": "85f69b34c569645d808455330f43f4286074e3e601d8666feb65fbeed74e8ed1",
+      "raw_rows": 112199,
+      "valid_rows": 111656,
+      "discarded_rows": 543
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-12",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_255.csv",
+      "downloaded_at": "2026-11-16T14:40:04.806807+00:00",
+      "sha256_uncompressed": "cb151562702ca743fdfd0e949ae170244bbfd37fc1a3a1ec4dc5970ae1afbfee",
+      "raw_rows": 88763,
+      "valid_rows": 88735,
+      "discarded_rows": 28
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-13",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_256.csv",
+      "downloaded_at": "2026-11-16T14:40:05.616021+00:00",
+      "sha256_uncompressed": "1ed15379707f0b85f1859f22026bca02a8cdaeca710b7bdb7cbc7e0f9ae628c1",
+      "raw_rows": 85470,
+      "valid_rows": 85262,
+      "discarded_rows": 208
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-14",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_257.csv",
+      "downloaded_at": "2026-11-16T14:40:09.976457+00:00",
+      "sha256_uncompressed": "49f07b4f90062d50be8c7057443343bdbc9e8194037c3023a20c1c83a20eb259",
+      "raw_rows": 116354,
+      "valid_rows": 116276,
+      "discarded_rows": 78
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-16",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_259.csv",
+      "downloaded_at": "2026-11-16T14:40:14.829580+00:00",
+      "sha256_uncompressed": "4dbb26494496ca85c46e30dee9c8418b956660514beb1d97b6e635fcb400eeba",
+      "raw_rows": 114983,
+      "valid_rows": 114896,
+      "discarded_rows": 87
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-15",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_258.csv",
+      "downloaded_at": "2026-11-16T14:40:15.877487+00:00",
+      "sha256_uncompressed": "ca5e7f93620db4a160721f913d7e233914330afafc9b284a0bbd62090daf2a32",
+      "raw_rows": 117599,
+      "valid_rows": 117539,
+      "discarded_rows": 60
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-19",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_262.csv",
+      "downloaded_at": "2026-11-16T14:40:22.276054+00:00",
+      "sha256_uncompressed": "da25911d930c1de0a126452371300dbbff21fefdbb8180926109a9c769e72c66",
+      "raw_rows": 92565,
+      "valid_rows": 92546,
+      "discarded_rows": 19
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-20",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_263.csv",
+      "downloaded_at": "2026-11-16T14:40:27.726393+00:00",
+      "sha256_uncompressed": "885f4ef0d66089c41adf1857f70038600317be84d8611bccfca2e8178720d87f",
+      "raw_rows": 90137,
+      "valid_rows": 90112,
+      "discarded_rows": 25
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-21",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_264.csv",
+      "downloaded_at": "2026-11-16T14:40:31.044688+00:00",
+      "sha256_uncompressed": "51aa72834d31dad5cfd43b52b3c732143799940afb7995ab7552fcb207a03b54",
+      "raw_rows": 117214,
+      "valid_rows": 117146,
+      "discarded_rows": 68
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-18",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_261.csv",
+      "downloaded_at": "2026-11-16T14:40:32.977870+00:00",
+      "sha256_uncompressed": "fd65238d6b14d79f15ffeb0d00946dde11cb67f127a4554a2e899432adc32fc9",
+      "raw_rows": 117728,
+      "valid_rows": 117608,
+      "discarded_rows": 120
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-22",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_265.csv",
+      "downloaded_at": "2026-11-16T14:40:34.190916+00:00",
+      "sha256_uncompressed": "9fe2f75847e050afa783fefb0ac2f9a647a9dfb0959adce0dbf19d505bba2542",
+      "raw_rows": 106030,
+      "valid_rows": 105958,
+      "discarded_rows": 72
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-24",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_267.csv",
+      "downloaded_at": "2026-11-16T14:40:37.537812+00:00",
+      "sha256_uncompressed": "69c4505f7436b8f3df1fda85d80bff75996a9b724c2e2fb82158e1ead01de52a",
+      "raw_rows": 119109,
+      "valid_rows": 119010,
+      "discarded_rows": 99
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-23",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_266.csv",
+      "downloaded_at": "2026-11-16T14:40:51.357569+00:00",
+      "sha256_uncompressed": "6992db226f690ad08d1610e6e3c2a2c08c321a90801838546073c3cc1a46ae6a",
+      "raw_rows": 120932,
+      "valid_rows": 120859,
+      "discarded_rows": 73
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-25",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_268.csv",
+      "downloaded_at": "2026-11-16T14:40:55.969858+00:00",
+      "sha256_uncompressed": "fbc99c0f7415250d047722b2a402d35a44d23334ff18e6391e6ef3b6f3119ab3",
+      "raw_rows": 110004,
+      "valid_rows": 109750,
+      "discarded_rows": 254
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-27",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_270.csv",
+      "downloaded_at": "2026-11-16T14:40:58.718781+00:00",
+      "sha256_uncompressed": "ebae480beed461c410d2a8c2de5060c20d9cf636527e1cc1f481eea4bdcdcf91",
+      "raw_rows": 91332,
+      "valid_rows": 91274,
+      "discarded_rows": 58
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-28",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_271.csv",
+      "downloaded_at": "2026-11-16T14:41:01.841237+00:00",
+      "sha256_uncompressed": "6cc20895a9d5f45cd0edc83cf42f1afd99d05667857cf15c61e6b7afae2523d0",
+      "raw_rows": 116211,
+      "valid_rows": 116061,
+      "discarded_rows": 150
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-29",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_272.csv",
+      "downloaded_at": "2026-11-16T14:41:04.912937+00:00",
+      "sha256_uncompressed": "6cbfab926bd0ba2be03be57a64298e62c1278089d46096c92f5bcf0f1f86cb37",
+      "raw_rows": 115891,
+      "valid_rows": 115651,
+      "discarded_rows": 240
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-09-30",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_273.csv",
+      "downloaded_at": "2026-11-16T14:41:08.233796+00:00",
+      "sha256_uncompressed": "a339340ff798177061cf68e4362d42c75823e3b30bc6320d71f84ebd35c6d3f6",
+      "raw_rows": 122374,
+      "valid_rows": 122281,
+      "discarded_rows": 93
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-01",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_274.csv",
+      "downloaded_at": "2026-11-16T14:41:11.359101+00:00",
+      "sha256_uncompressed": "72c755b30f3ffa64bea5e51049fbae4da6359276543b631e9debfe2e0a3c28a5",
+      "raw_rows": 121967,
+      "valid_rows": 121824,
+      "discarded_rows": 143
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-02",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_275.csv",
+      "downloaded_at": "2026-11-16T14:41:14.909022+00:00",
+      "sha256_uncompressed": "c5f573fa5b87d8f33d1df9ec8e65e1295204410e3ac228010c67ba5f63b24311",
+      "raw_rows": 119968,
+      "valid_rows": 119912,
+      "discarded_rows": 56
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-03",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_276.csv",
+      "downloaded_at": "2026-11-16T14:41:17.831700+00:00",
+      "sha256_uncompressed": "3600c6d111d21ac271369376c13d8ff3c2a7a4ef8e138943444acd0d1441371d",
+      "raw_rows": 91286,
+      "valid_rows": 91268,
+      "discarded_rows": 18
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-04",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_277.csv",
+      "downloaded_at": "2026-11-16T14:41:20.579253+00:00",
+      "sha256_uncompressed": "526305f0c5b36f031eb981ed36a012e881f7ecf588f947baaf2672168e7f8a7e",
+      "raw_rows": 88835,
+      "valid_rows": 88820,
+      "discarded_rows": 15
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-05",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_278.csv",
+      "downloaded_at": "2026-11-16T14:41:23.778394+00:00",
+      "sha256_uncompressed": "d3e4031ecaf38a688a9685eb7e47417961e4e4b27336f2d722362927369fa330",
+      "raw_rows": 116710,
+      "valid_rows": 116659,
+      "discarded_rows": 51
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-06",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_279.csv",
+      "downloaded_at": "2026-11-16T14:41:27.168467+00:00",
+      "sha256_uncompressed": "b184c99ac82958028c3a77dc2a2d1e0c407a6e9b5917f5451cbc2f973db0661a",
+      "raw_rows": 118353,
+      "valid_rows": 118178,
+      "discarded_rows": 175
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-07",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_280.csv",
+      "downloaded_at": "2026-11-16T14:41:30.728002+00:00",
+      "sha256_uncompressed": "efa4a6bc95eaec2b9f231942ab7e395456e744fc589927991fb167c889959c32",
+      "raw_rows": 120710,
+      "valid_rows": 120633,
+      "discarded_rows": 77
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-08",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_281.csv",
+      "downloaded_at": "2026-11-16T14:41:31.588126+00:00",
+      "sha256_uncompressed": "742bd16541f2642234ef499a38c932402e343c3c0094dfa1c202915f30fb177f",
+      "raw_rows": 123032,
+      "valid_rows": 122998,
+      "discarded_rows": 34
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-09",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_282.csv",
+      "downloaded_at": "2026-11-16T14:41:33.905329+00:00",
+      "sha256_uncompressed": "56fba71d3a0f161a0f1786d5e5c84f409d91aa718e7a65a8803be79070923ded",
+      "raw_rows": 115722,
+      "valid_rows": 115497,
+      "discarded_rows": 225
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-11",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_284.csv",
+      "downloaded_at": "2026-11-16T14:41:36.549976+00:00",
+      "sha256_uncompressed": "4521ecb70381df670ef4c10886f1c8698c488f6f0d9cd948be4b29c8d0aab7b2",
+      "raw_rows": 82437,
+      "valid_rows": 82424,
+      "discarded_rows": 13
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-12",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_285.csv",
+      "downloaded_at": "2026-11-16T14:41:39.688324+00:00",
+      "sha256_uncompressed": "9323c347b97f473fddc1c3064aba545fd1c501ba9ceb38d4bd13f7e9418cd5ea",
+      "raw_rows": 109462,
+      "valid_rows": 109431,
+      "discarded_rows": 31
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-13",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_286.csv",
+      "downloaded_at": "2026-11-16T14:41:42.723326+00:00",
+      "sha256_uncompressed": "9838118d2ab7e8d5105bfa9cae9b00910f1309ff04d3852435eb634754f3a22e",
+      "raw_rows": 115253,
+      "valid_rows": 115192,
+      "discarded_rows": 61
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-15",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_288.csv",
+      "downloaded_at": "2026-11-16T14:41:56.712587+00:00",
+      "sha256_uncompressed": "b0df810faa83b3f299b3baa5894ac3d2662ac489618482ce8aa7367875ce6d07",
+      "raw_rows": 116411,
+      "valid_rows": 116368,
+      "discarded_rows": 43
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-10",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_283.csv",
+      "downloaded_at": "2026-11-16T14:42:04.595210+00:00",
+      "sha256_uncompressed": "b3e0430097696dbdb561c176b910f656c27ba1d90b18796160769fa286e30024",
+      "raw_rows": 87564,
+      "valid_rows": 87553,
+      "discarded_rows": 11
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-17",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_290.csv",
+      "downloaded_at": "2026-11-16T14:42:07.161966+00:00",
+      "sha256_uncompressed": "56b71a126d0ee60584aafc46606301ba15167e79c980e6732d6dbcab7675b226",
+      "raw_rows": 84879,
+      "valid_rows": 84864,
+      "discarded_rows": 15
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-18",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_291.csv",
+      "downloaded_at": "2026-11-16T14:42:10.020162+00:00",
+      "sha256_uncompressed": "f23458b35227c3093444372872b441f478b6e0052927d34d7f58fd5d289f832b",
+      "raw_rows": 86934,
+      "valid_rows": 86918,
+      "discarded_rows": 16
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-19",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_292.csv",
+      "downloaded_at": "2026-11-16T14:42:13.258714+00:00",
+      "sha256_uncompressed": "7c752d4d9403bff18a5d74468b02c64d3affd699e4ced6bd78f610f11cd2df77",
+      "raw_rows": 116293,
+      "valid_rows": 116229,
+      "discarded_rows": 64
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-20",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_293.csv",
+      "downloaded_at": "2026-11-16T14:42:16.894118+00:00",
+      "sha256_uncompressed": "518d81ae20a000cbf53431bf9f9c3088893d8569e01b0585fa6ae87695d22b9a",
+      "raw_rows": 120572,
+      "valid_rows": 120464,
+      "discarded_rows": 108
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-21",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_294.csv",
+      "downloaded_at": "2026-11-16T14:42:20.170261+00:00",
+      "sha256_uncompressed": "dc5fa996fd190ea3f5a093e3e4d86c8591eebc6d5bf483cf8da46c84c67b397f",
+      "raw_rows": 121261,
+      "valid_rows": 121106,
+      "discarded_rows": 155
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-22",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_295.csv",
+      "downloaded_at": "2026-11-16T14:42:23.373419+00:00",
+      "sha256_uncompressed": "4e759fe5034a6950fead1281b15ffba758f25d921f886ea3bc9f416a93e438e5",
+      "raw_rows": 122483,
+      "valid_rows": 122377,
+      "discarded_rows": 106
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-23",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_296.csv",
+      "downloaded_at": "2026-11-16T14:42:26.429724+00:00",
+      "sha256_uncompressed": "9afdbca85dda6aeb56db4e4189de02de43123c32a12432a6336aa169b2edffde",
+      "raw_rows": 120681,
+      "valid_rows": 120641,
+      "discarded_rows": 40
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-24",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_297.csv",
+      "downloaded_at": "2026-11-16T14:42:29.015393+00:00",
+      "sha256_uncompressed": "98699e4882394b718d192862716d6678a9050e1484074f82a9640545a1755e97",
+      "raw_rows": 91129,
+      "valid_rows": 91106,
+      "discarded_rows": 23
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-25",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_298.csv",
+      "downloaded_at": "2026-11-16T14:42:30.354499+00:00",
+      "sha256_uncompressed": "c8c8324e1207448ff7605ddaf06a19e2d235da27adf6dd7bfe673415cc1a0621",
+      "raw_rows": 8921,
+      "valid_rows": 8921,
+      "discarded_rows": 0
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-26",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_299.csv",
+      "downloaded_at": "2026-11-16T14:42:33.296005+00:00",
+      "sha256_uncompressed": "5816b304f3dd29735c7560f0aeeb140b71f21e5503e22a71a0aaf121f8902395",
+      "raw_rows": 113317,
+      "valid_rows": 113254,
+      "discarded_rows": 63
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-27",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_300.csv",
+      "downloaded_at": "2026-11-16T14:42:37.211184+00:00",
+      "sha256_uncompressed": "281b03fa665745ab44e41938bad53e2dd3825bcaab378a3b263bdc6c4e3c0578",
+      "raw_rows": 119838,
+      "valid_rows": 119754,
+      "discarded_rows": 84
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-28",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_301.csv",
+      "downloaded_at": "2026-11-16T14:42:40.611880+00:00",
+      "sha256_uncompressed": "88ab90b742819d5666c7014d3a2a5fd96f1db7ebeba07b20beca1516a302f875",
+      "raw_rows": 119707,
+      "valid_rows": 119565,
+      "discarded_rows": 142
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-29",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_302.csv",
+      "downloaded_at": "2026-11-16T14:42:44.028270+00:00",
+      "sha256_uncompressed": "6dedfaaddb292f44b426c0aa01640f1baaeda96c6afb2f310bc41eb5062cc0ce",
+      "raw_rows": 122601,
+      "valid_rows": 122503,
+      "discarded_rows": 98
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-30",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_303.csv",
+      "downloaded_at": "2026-11-16T14:42:47.498414+00:00",
+      "sha256_uncompressed": "4fb9b22468ece8bc8d1a337481bd8b3a4084326f3e1d813b6f68afe921075586",
+      "raw_rows": 121903,
+      "valid_rows": 121872,
+      "discarded_rows": 31
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-10-31",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_304.csv",
+      "downloaded_at": "2026-11-16T14:42:50.767948+00:00",
+      "sha256_uncompressed": "ecf0e5e7a8191b0566575315438fef2938dbe122b6f79c5a2d2f275d3a26acad",
+      "raw_rows": 96778,
+      "valid_rows": 96758,
+      "discarded_rows": 20
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-11-01",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_305.csv",
+      "downloaded_at": "2026-11-16T14:42:53.742456+00:00",
+      "sha256_uncompressed": "9e92a908d5718d555dd56545b957e932a86b07ef15a4f464ecc4bf2204b9e0fd",
+      "raw_rows": 87621,
+      "valid_rows": 87609,
+      "discarded_rows": 12
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-11-02",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_306.csv",
+      "downloaded_at": "2026-11-16T14:42:56.957290+00:00",
+      "sha256_uncompressed": "a3fa2445c7fb3e70e193d542b3ac582174653da443d933217bd141979f6dfd1d",
+      "raw_rows": 116074,
+      "valid_rows": 116029,
+      "discarded_rows": 45
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-11-03",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_307.csv",
+      "downloaded_at": "2026-11-16T14:43:00.055151+00:00",
+      "sha256_uncompressed": "5bb7cc66ddb8fd0a58d44f6231031affc8687a116e7a36cfdc63622a14ac16a6",
+      "raw_rows": 119962,
+      "valid_rows": 119886,
+      "discarded_rows": 76
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-11-04",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_308.csv",
+      "downloaded_at": "2026-11-16T14:43:01.278822+00:00",
+      "sha256_uncompressed": "1097c0ff933d761127bd22a9d9bb92e1a995eaf747b3e4773b76b1c557bffcc3",
+      "raw_rows": 120262,
+      "valid_rows": 120196,
+      "discarded_rows": 66
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-11-05",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_309.csv",
+      "downloaded_at": "2026-11-16T14:43:02.391927+00:00",
+      "sha256_uncompressed": "c506c57cf449bf377a1177d455a36793984fd3663985c61c172011c6becc40c6",
+      "raw_rows": 121450,
+      "valid_rows": 121399,
+      "discarded_rows": 51
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-11-06",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_310.csv",
+      "downloaded_at": "2026-11-16T14:43:03.959516+00:00",
+      "sha256_uncompressed": "db6e457e76a13d6e8773c077750658cc3e4c01977b52ffbac9000f1833626a62",
+      "raw_rows": 118978,
+      "valid_rows": 118921,
+      "discarded_rows": 57
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-11-07",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_311.csv",
+      "downloaded_at": "2026-11-16T14:43:04.299658+00:00",
+      "sha256_uncompressed": "347d535acce6fef5ba1b847a11eedd11f5a7b9b50cad5601f02bd845f5caeb57",
+      "raw_rows": 91074,
+      "valid_rows": 91063,
+      "discarded_rows": 11
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-11-08",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_312.csv",
+      "downloaded_at": "2026-11-16T14:43:05.477888+00:00",
+      "sha256_uncompressed": "805b09d6e62d0ae44fe13135f3b11d5759268248d1dc848b56e9f7568b06e783",
+      "raw_rows": 92887,
+      "valid_rows": 92863,
+      "discarded_rows": 24
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-11-09",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_313.csv",
+      "downloaded_at": "2026-11-16T14:43:07.466279+00:00",
+      "sha256_uncompressed": "f4b8a204f1c5a5a470ee61d55f3946ecdc4573d714b7e80f35e2d5708406ef4c",
+      "raw_rows": 114927,
+      "valid_rows": 114872,
+      "discarded_rows": 55
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-11-10",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_314.csv",
+      "downloaded_at": "2026-11-16T14:43:08.152294+00:00",
+      "sha256_uncompressed": "c9c774289d82e1e327c3635839dc6d634104183e2368cb154b5ecd376f888f42",
+      "raw_rows": 118780,
+      "valid_rows": 118706,
+      "discarded_rows": 74
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-11-11",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_315.csv",
+      "downloaded_at": "2026-11-16T14:43:09.269082+00:00",
+      "sha256_uncompressed": "a05bb1bc7849cc34190ce9c368af3205e321b3ec8978ccb17d2b07e33f86aeb7",
+      "raw_rows": 120247,
+      "valid_rows": 120188,
+      "discarded_rows": 59
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-11-12",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_316.csv",
+      "downloaded_at": "2026-11-16T14:43:10.617899+00:00",
+      "sha256_uncompressed": "f81db527291af6ea72ea677f0d3e7355939288215231bddfadcfbefa6752b327",
+      "raw_rows": 120396,
+      "valid_rows": 120358,
+      "discarded_rows": 38
+    },
+    {
+      "station_id": 23146,
+      "date": "2026-11-13",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_146_26_317.csv",
+      "downloaded_at": "2026-11-16T14:43:11.634731+00:00",
+      "sha256_uncompressed": "22a368e5a350abe433afaf66f91f393e3ffb2b4ca8909fc860e06efa1d350692",
+      "raw_rows": 117444,
+      "valid_rows": 117396,
+      "discarded_rows": 48
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-01",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_244.csv",
+      "downloaded_at": "2026-11-16T14:43:12.158396+00:00",
+      "sha256_uncompressed": "859b73daab9b281bff4fd1f0248f41b9047d9a6df5bfa3998eb82f123c98e926",
+      "raw_rows": 74751,
+      "valid_rows": 70037,
+      "discarded_rows": 4714
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-02",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_245.csv",
+      "downloaded_at": "2026-11-16T14:43:13.888601+00:00",
+      "sha256_uncompressed": "519ed0770a69f51c67809a7f1bed702fdfef3185f69b70e8c3aabcbb3d1aa40b",
+      "raw_rows": 75300,
+      "valid_rows": 70709,
+      "discarded_rows": 4591
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-03",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_246.csv",
+      "downloaded_at": "2026-11-16T14:43:14.478123+00:00",
+      "sha256_uncompressed": "76a4272f79a1872cdd9f4b7dfd833bc42ada585ee982d9f591d828d60187b134",
+      "raw_rows": 75268,
+      "valid_rows": 69927,
+      "discarded_rows": 5341
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-04",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_247.csv",
+      "downloaded_at": "2026-11-16T14:43:15.731748+00:00",
+      "sha256_uncompressed": "aaed2bd026ca3f3a1bb0aa73340813b56c6590408bcd29c9c07fc3df04b2ea62",
+      "raw_rows": 76139,
+      "valid_rows": 71583,
+      "discarded_rows": 4556
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-05",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_248.csv",
+      "downloaded_at": "2026-11-16T14:43:16.715955+00:00",
+      "sha256_uncompressed": "ada3c6e758c848806e14848a5d592be64918882c07d56ac2cae8ce5de35eba2e",
+      "raw_rows": 61892,
+      "valid_rows": 58472,
+      "discarded_rows": 3420
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-06",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_249.csv",
+      "downloaded_at": "2026-11-16T14:43:17.696944+00:00",
+      "sha256_uncompressed": "19bc7e8b9de64666b29723a711d1abc14cc9194c5b3ebf19e6b6318750086358",
+      "raw_rows": 57085,
+      "valid_rows": 53662,
+      "discarded_rows": 3423
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-07",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_250.csv",
+      "downloaded_at": "2026-11-16T14:43:19.189851+00:00",
+      "sha256_uncompressed": "b64eb9d653e5e7b7d0f0434300ff647b4002a8d5400de8e5f1f3e8cff71b8358",
+      "raw_rows": 73328,
+      "valid_rows": 69644,
+      "discarded_rows": 3684
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-08",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_251.csv",
+      "downloaded_at": "2026-11-16T14:43:20.254200+00:00",
+      "sha256_uncompressed": "3ffaa8e29392bd2651c64a87c22bdafcf0421967ea157a399fef6851480e477a",
+      "raw_rows": 72600,
+      "valid_rows": 69370,
+      "discarded_rows": 3230
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-09",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_252.csv",
+      "downloaded_at": "2026-11-16T14:43:21.399050+00:00",
+      "sha256_uncompressed": "73bf0ec3d908ee11ca515bca59000f95276a6c812364a3a2b7bca68ba032294d",
+      "raw_rows": 68581,
+      "valid_rows": 65177,
+      "discarded_rows": 3404
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-10",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_253.csv",
+      "downloaded_at": "2026-11-16T14:43:22.750998+00:00",
+      "sha256_uncompressed": "75dea53c1a8bcdddf81dda4192dc7b4dd64528204ba5e9523c7bbc622f0e1327",
+      "raw_rows": 73805,
+      "valid_rows": 69610,
+      "discarded_rows": 4195
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-11",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_254.csv",
+      "downloaded_at": "2026-11-16T14:43:23.929544+00:00",
+      "sha256_uncompressed": "2c148ac3af2f14130d0955e485d46a884d554d65832de4a7d058e63c0687125e",
+      "raw_rows": 75427,
+      "valid_rows": 71378,
+      "discarded_rows": 4049
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-12",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_255.csv",
+      "downloaded_at": "2026-11-16T14:43:24.669861+00:00",
+      "sha256_uncompressed": "7238b17d9b89bbed800331a130255b9898417e91b953e3216678cc1145ec6555",
+      "raw_rows": 60872,
+      "valid_rows": 57573,
+      "discarded_rows": 3299
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-13",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_256.csv",
+      "downloaded_at": "2026-11-16T14:43:25.881559+00:00",
+      "sha256_uncompressed": "f0938cd64dd99c9fb092b10974b37b6cf0ac49c8b69daab7048e1296da011557",
+      "raw_rows": 58080,
+      "valid_rows": 55324,
+      "discarded_rows": 2756
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-14",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_257.csv",
+      "downloaded_at": "2026-11-16T14:43:27.486507+00:00",
+      "sha256_uncompressed": "3d57615bdc4b3067778d7561a3db9935002a4a4b47d498d6cfa8c1d1a845da59",
+      "raw_rows": 73630,
+      "valid_rows": 69837,
+      "discarded_rows": 3793
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-15",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_258.csv",
+      "downloaded_at": "2026-11-16T14:43:28.503936+00:00",
+      "sha256_uncompressed": "319e703cdb6c98cbccab86a7c7b2afad5355c9a23773708de4f1aceb2205c9cb",
+      "raw_rows": 70066,
+      "valid_rows": 66217,
+      "discarded_rows": 3849
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-16",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_259.csv",
+      "downloaded_at": "2026-11-16T14:43:29.551086+00:00",
+      "sha256_uncompressed": "99635bb6dddcc4a266e216178de040df420e53577579315242359fcbbea5a771",
+      "raw_rows": 75157,
+      "valid_rows": 71713,
+      "discarded_rows": 3444
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-17",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_260.csv",
+      "downloaded_at": "2026-11-16T14:43:30.761514+00:00",
+      "sha256_uncompressed": "08505a43a54d6d7c888421b2e97185bf109fa88b33c22538d7ae7efd2f4c9487",
+      "raw_rows": 75338,
+      "valid_rows": 71269,
+      "discarded_rows": 4069
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-18",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_261.csv",
+      "downloaded_at": "2026-11-16T14:43:31.869903+00:00",
+      "sha256_uncompressed": "a03f5ed41f2fc43bf90958b9869c1ea51753364ff5fbfbdc2da4fea0a69aff66",
+      "raw_rows": 75676,
+      "valid_rows": 71921,
+      "discarded_rows": 3755
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-19",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_262.csv",
+      "downloaded_at": "2026-11-16T14:43:32.826016+00:00",
+      "sha256_uncompressed": "5b25f993f22dcff5c632573b867b204222c419116b936a4a4bff71ead93f0e4d",
+      "raw_rows": 61986,
+      "valid_rows": 58758,
+      "discarded_rows": 3228
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-20",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_263.csv",
+      "downloaded_at": "2026-11-16T14:43:33.952801+00:00",
+      "sha256_uncompressed": "16b8f105b8e84d36664360e2958cc9a901a773b4f064f8f5d2a82793bcf6ada5",
+      "raw_rows": 59961,
+      "valid_rows": 56369,
+      "discarded_rows": 3592
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-21",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_264.csv",
+      "downloaded_at": "2026-11-16T14:43:35.423060+00:00",
+      "sha256_uncompressed": "f3963b80998132fd13f8741117efb436ccd8418326ae427c73456be6dc2585b1",
+      "raw_rows": 74299,
+      "valid_rows": 70736,
+      "discarded_rows": 3563
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-22",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_265.csv",
+      "downloaded_at": "2026-11-16T14:43:35.743615+00:00",
+      "sha256_uncompressed": "1ea7d949b750bf3a53d3628768faa7e74a24dc42a446b708b6715b5b26681a6c",
+      "raw_rows": 75249,
+      "valid_rows": 71448,
+      "discarded_rows": 3801
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-23",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_266.csv",
+      "downloaded_at": "2026-11-16T14:43:37.770803+00:00",
+      "sha256_uncompressed": "a0fbc82550d60664e8168d1e64d7a87a6c7b612b9a693d1201b4307951449a50",
+      "raw_rows": 75198,
+      "valid_rows": 72779,
+      "discarded_rows": 2419
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-24",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_267.csv",
+      "downloaded_at": "2026-11-16T14:43:38.786535+00:00",
+      "sha256_uncompressed": "d88d1b40cf24506e2962b2a2132d65f2c63ab50b3bdcef4b0d465d936ae9a3fc",
+      "raw_rows": 74686,
+      "valid_rows": 71463,
+      "discarded_rows": 3223
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-25",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_268.csv",
+      "downloaded_at": "2026-11-16T14:43:40.005656+00:00",
+      "sha256_uncompressed": "9aeacc9843ae69cfd9eccc15af4f634478a3feada7a7dd42c76bdd168aa0dc97",
+      "raw_rows": 71199,
+      "valid_rows": 68330,
+      "discarded_rows": 2869
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-26",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_269.csv",
+      "downloaded_at": "2026-11-16T14:43:40.884787+00:00",
+      "sha256_uncompressed": "975ee7aedd4a44b63f00cb342ec9c8e50723dbfcb80dee51208f55a3a82d0221",
+      "raw_rows": 59801,
+      "valid_rows": 57715,
+      "discarded_rows": 2086
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-27",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_270.csv",
+      "downloaded_at": "2026-11-16T14:43:42.016401+00:00",
+      "sha256_uncompressed": "9aaea742265187daa7dbf8847432b7ea2ec3ef4607dd55fff91809e0d7072f5d",
+      "raw_rows": 60878,
+      "valid_rows": 57763,
+      "discarded_rows": 3115
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-28",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_271.csv",
+      "downloaded_at": "2026-11-16T14:43:43.443127+00:00",
+      "sha256_uncompressed": "51b1e59f3134aeb1246ba3562146b57135400b0d66a7cfc6aa3fe000d15ceb5e",
+      "raw_rows": 73686,
+      "valid_rows": 70202,
+      "discarded_rows": 3484
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-29",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_272.csv",
+      "downloaded_at": "2026-11-16T14:43:44.587195+00:00",
+      "sha256_uncompressed": "87d01fa9f14d2af63817692bcd7084d51248208922fc9e6f0b931b99f36a5177",
+      "raw_rows": 72591,
+      "valid_rows": 69169,
+      "discarded_rows": 3422
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-09-30",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_273.csv",
+      "downloaded_at": "2026-11-16T14:43:45.744832+00:00",
+      "sha256_uncompressed": "329e5dfc6dbd50a8d01d9fcf910b5c708fb0575bf9f0b7690c51c4a10480f996",
+      "raw_rows": 75926,
+      "valid_rows": 72079,
+      "discarded_rows": 3847
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-01",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_274.csv",
+      "downloaded_at": "2026-11-16T14:43:46.952632+00:00",
+      "sha256_uncompressed": "9386ff21330fe6d3ce3de38e96badca474461aaa33357e7dedf0921a43604f39",
+      "raw_rows": 76793,
+      "valid_rows": 73048,
+      "discarded_rows": 3745
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-02",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_275.csv",
+      "downloaded_at": "2026-11-16T14:43:48.258735+00:00",
+      "sha256_uncompressed": "bae1a84d7a66d099e88782cdab2d41d6211f8179d69d01ae1ccf17b1b61ae68c",
+      "raw_rows": 75844,
+      "valid_rows": 72190,
+      "discarded_rows": 3654
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-03",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_276.csv",
+      "downloaded_at": "2026-11-16T14:43:48.951324+00:00",
+      "sha256_uncompressed": "d2b6ae52721e6a08d5589096c5bcc281f64ad9cfa571035b1560823d9ab66852",
+      "raw_rows": 60332,
+      "valid_rows": 58155,
+      "discarded_rows": 2177
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-04",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_277.csv",
+      "downloaded_at": "2026-11-16T14:43:50.229282+00:00",
+      "sha256_uncompressed": "35f53865999e8b2362a03b58d4f033cd28f9424d8c09d7201502451db1e08293",
+      "raw_rows": 59072,
+      "valid_rows": 56636,
+      "discarded_rows": 2436
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-05",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_278.csv",
+      "downloaded_at": "2026-11-16T14:43:51.406079+00:00",
+      "sha256_uncompressed": "b2e274891dcfacddd889bf6d589a15e879e0270f62416c028d5f5c0a09c5b3eb",
+      "raw_rows": 73317,
+      "valid_rows": 70782,
+      "discarded_rows": 2535
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-06",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_279.csv",
+      "downloaded_at": "2026-11-16T14:43:52.690755+00:00",
+      "sha256_uncompressed": "9e3310dc6b06879ec448aa8454ea1d083c96b4d16efa9b3a8bfbf8d22b7d6ecc",
+      "raw_rows": 74518,
+      "valid_rows": 70940,
+      "discarded_rows": 3578
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-07",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_280.csv",
+      "downloaded_at": "2026-11-16T14:43:53.865841+00:00",
+      "sha256_uncompressed": "4e70054cce7db69a7343eea49d031f4e869108f075103fd36800df4cf76e3d9d",
+      "raw_rows": 76161,
+      "valid_rows": 72671,
+      "discarded_rows": 3490
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-08",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_281.csv",
+      "downloaded_at": "2026-11-16T14:43:55.025704+00:00",
+      "sha256_uncompressed": "33587ad13c63574a252130b9f19eebf1a8cf0ef1dede4af4b31e872bd8cd1e32",
+      "raw_rows": 77109,
+      "valid_rows": 74176,
+      "discarded_rows": 2933
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-09",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_282.csv",
+      "downloaded_at": "2026-11-16T14:43:56.073552+00:00",
+      "sha256_uncompressed": "3ddecc8fa133ba3a5dfa69275f365185d88497d9e7aa398add555eca67947780",
+      "raw_rows": 73757,
+      "valid_rows": 70725,
+      "discarded_rows": 3032
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-10",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_283.csv",
+      "downloaded_at": "2026-11-16T14:43:57.282354+00:00",
+      "sha256_uncompressed": "3a6d17ecc9937acf0161419d56666bb9ec1050727c7ad808c47c24ac78d652cd",
+      "raw_rows": 59051,
+      "valid_rows": 57766,
+      "discarded_rows": 1285
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-11",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_284.csv",
+      "downloaded_at": "2026-11-16T14:43:58.170910+00:00",
+      "sha256_uncompressed": "2a71191488b2c31e04bb72258be545226b8a80ede73401eed584508026b3d05e",
+      "raw_rows": 54776,
+      "valid_rows": 53522,
+      "discarded_rows": 1254
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-12",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_285.csv",
+      "downloaded_at": "2026-11-16T14:43:59.408959+00:00",
+      "sha256_uncompressed": "cc8c6efe447dd26913d32885119522958a744064a06d5383d0c95f9ed23cff89",
+      "raw_rows": 68728,
+      "valid_rows": 66964,
+      "discarded_rows": 1764
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-13",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_286.csv",
+      "downloaded_at": "2026-11-16T14:44:00.791077+00:00",
+      "sha256_uncompressed": "92ab582f98763b96a3e8503033e2a73efd25ce1c968a717fba98dd320e03d1a1",
+      "raw_rows": 72963,
+      "valid_rows": 70780,
+      "discarded_rows": 2183
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-14",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_287.csv",
+      "downloaded_at": "2026-11-16T14:44:01.890268+00:00",
+      "sha256_uncompressed": "46f7c500eff4f8481d34f2df5ba2f526de4611f330f58576146fd4ed4acdb7ae",
+      "raw_rows": 72015,
+      "valid_rows": 69736,
+      "discarded_rows": 2279
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-15",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_288.csv",
+      "downloaded_at": "2026-11-16T14:44:02.996896+00:00",
+      "sha256_uncompressed": "2d25c8ae327a8af77cd6959fee2fc18a1c54b1fe1343ef2014ccc70ec13f9b39",
+      "raw_rows": 74084,
+      "valid_rows": 71741,
+      "discarded_rows": 2343
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-16",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_289.csv",
+      "downloaded_at": "2026-11-16T14:44:04.154651+00:00",
+      "sha256_uncompressed": "b56470f68e3ee6b2361c7da90248a2d14ad15df207a79b10fabdaa9c303c1d85",
+      "raw_rows": 71622,
+      "valid_rows": 68930,
+      "discarded_rows": 2692
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-17",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_290.csv",
+      "downloaded_at": "2026-11-16T14:44:05.265374+00:00",
+      "sha256_uncompressed": "3e746e9e6921503cff6082bdca03ba36aa190962963f9514b03460167b0fd6ef",
+      "raw_rows": 56968,
+      "valid_rows": 55353,
+      "discarded_rows": 1615
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-18",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_291.csv",
+      "downloaded_at": "2026-11-16T14:44:06.141825+00:00",
+      "sha256_uncompressed": "01eb3456c29cb7a0abaa6e82aa9d730a82e2e4e46652872f94c3e024316e7fb9",
+      "raw_rows": 57403,
+      "valid_rows": 55746,
+      "discarded_rows": 1657
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-19",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_292.csv",
+      "downloaded_at": "2026-11-16T14:44:07.543392+00:00",
+      "sha256_uncompressed": "019cdc5fb5f932858dd4f850db2db3c33da84a857a9ea1c9f9c9716352fe7ba9",
+      "raw_rows": 71502,
+      "valid_rows": 69213,
+      "discarded_rows": 2289
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-20",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_293.csv",
+      "downloaded_at": "2026-11-16T14:44:08.798175+00:00",
+      "sha256_uncompressed": "ce3a11333b249c77ea6410aecb6b35708a542ef203c32b11a872060f85992d22",
+      "raw_rows": 74769,
+      "valid_rows": 72397,
+      "discarded_rows": 2372
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-21",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_294.csv",
+      "downloaded_at": "2026-11-16T14:44:09.961403+00:00",
+      "sha256_uncompressed": "cfd9d6db246e43e97a8f0b22c9e6cb33686b4ed356fc94b0075120c852438a1d",
+      "raw_rows": 74992,
+      "valid_rows": 72245,
+      "discarded_rows": 2747
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-22",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_295.csv",
+      "downloaded_at": "2026-11-16T14:44:11.492470+00:00",
+      "sha256_uncompressed": "866ff666aa2b66a0e653b3d2fb5e67c18763e47bcdd6f8d70d3646031eb452c2",
+      "raw_rows": 75502,
+      "valid_rows": 72591,
+      "discarded_rows": 2911
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-23",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_296.csv",
+      "downloaded_at": "2026-11-16T14:44:12.339094+00:00",
+      "sha256_uncompressed": "58abd85ac7c3a80187c8f6aeb95c7be55666009a6468d51178f2869fcf7e68ff",
+      "raw_rows": 76205,
+      "valid_rows": 73538,
+      "discarded_rows": 2667
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-24",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_297.csv",
+      "downloaded_at": "2026-11-16T14:44:13.834436+00:00",
+      "sha256_uncompressed": "bc86b264ac17cf56a6c58832d183530349c28d0f57a679ba56fb8f58d0125fe1",
+      "raw_rows": 61542,
+      "valid_rows": 59282,
+      "discarded_rows": 2260
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-25",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_298.csv",
+      "downloaded_at": "2026-11-16T14:44:14.323771+00:00",
+      "sha256_uncompressed": "5a6dd448448a1c84a720e7239b943d66136880d604fb6cb984fac2a5a36254da",
+      "raw_rows": 58206,
+      "valid_rows": 56468,
+      "discarded_rows": 1738
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-27",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_300.csv",
+      "downloaded_at": "2026-11-16T14:46:27.666835+00:00",
+      "sha256_uncompressed": "0600c1a156b51bd76fdf1a107319c174633966f0b0269e12032bdb1a75fd37b6",
+      "raw_rows": 75140,
+      "valid_rows": 72608,
+      "discarded_rows": 2532
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-28",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_301.csv",
+      "downloaded_at": "2026-11-16T14:46:28.251766+00:00",
+      "sha256_uncompressed": "31df69966fb2c9f4197e0bc7415697eadcb694ca4c9b4a9acb07ed2c25152a48",
+      "raw_rows": 75568,
+      "valid_rows": 73067,
+      "discarded_rows": 2501
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-29",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_302.csv",
+      "downloaded_at": "2026-11-16T14:46:30.153799+00:00",
+      "sha256_uncompressed": "5aa4ed023d7ff59b01cc2e9a1e93bbae2cb3356a974965ac0e71c7c113dc0a51",
+      "raw_rows": 75614,
+      "valid_rows": 73395,
+      "discarded_rows": 2219
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-30",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_303.csv",
+      "downloaded_at": "2026-11-16T14:46:32.261824+00:00",
+      "sha256_uncompressed": "b592ead0034ab0abb3d329525fe8f68839ff63863468284f2b8a1c0b7f3434f7",
+      "raw_rows": 78004,
+      "valid_rows": 75558,
+      "discarded_rows": 2446
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-11-01",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_305.csv",
+      "downloaded_at": "2026-11-16T14:46:34.758199+00:00",
+      "sha256_uncompressed": "9c5c6732dcbbcfe8c588d84061b3bf84bc234156ce6db233578c7a582778de61",
+      "raw_rows": 58692,
+      "valid_rows": 57193,
+      "discarded_rows": 1499
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-11-02",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_306.csv",
+      "downloaded_at": "2026-11-16T14:46:37.663986+00:00",
+      "sha256_uncompressed": "6962b35082a53f9aa24bbea24f41ebd8b124630584af35ac60afd9e2d7c8caee",
+      "raw_rows": 72565,
+      "valid_rows": 70703,
+      "discarded_rows": 1862
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-11-03",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_307.csv",
+      "downloaded_at": "2026-11-16T14:46:40.400517+00:00",
+      "sha256_uncompressed": "a84f3f0d5a7b5d5c31e595946d0018c34723330e4d964706083bfb61b5acb79f",
+      "raw_rows": 74591,
+      "valid_rows": 72996,
+      "discarded_rows": 1595
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-11-04",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_308.csv",
+      "downloaded_at": "2026-11-16T14:46:42.897827+00:00",
+      "sha256_uncompressed": "aa11c4349fad2505cda96d2c31f078bd5aaa52871b1de78fe20ed80c79bf5ea0",
+      "raw_rows": 74539,
+      "valid_rows": 72764,
+      "discarded_rows": 1775
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-11-05",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_309.csv",
+      "downloaded_at": "2026-11-16T14:46:45.383496+00:00",
+      "sha256_uncompressed": "ad1980270ed50170172e7f185a833ba42cd2cce8debcfe4acdc446101dc610e9",
+      "raw_rows": 76174,
+      "valid_rows": 74151,
+      "discarded_rows": 2023
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-10-31",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_304.csv",
+      "downloaded_at": "2026-11-16T14:46:48.649817+00:00",
+      "sha256_uncompressed": "92007721ff485f026dac10a3f20e62db1c72a2ba765621a38d7b79ca7f10b7ad",
+      "raw_rows": 65227,
+      "valid_rows": 63572,
+      "discarded_rows": 1655
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-11-07",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_311.csv",
+      "downloaded_at": "2026-11-16T14:46:51.487885+00:00",
+      "sha256_uncompressed": "c4d94b5ee114cd2fadeddd0c86b6b7a8905732141654956cb9679b22123b5f7e",
+      "raw_rows": 61733,
+      "valid_rows": 60466,
+      "discarded_rows": 1267
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-11-08",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_312.csv",
+      "downloaded_at": "2026-11-16T14:46:54.436638+00:00",
+      "sha256_uncompressed": "329d0ba35fe70d4161ffacc4bb2da956c388ecc51997402a33d5b9be5e37edae",
+      "raw_rows": 62339,
+      "valid_rows": 61122,
+      "discarded_rows": 1217
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-11-09",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_313.csv",
+      "downloaded_at": "2026-11-16T14:46:57.772726+00:00",
+      "sha256_uncompressed": "e1eb620f9b84d5cd01598626aa35522e7d7031d39b7f36a3fc7664fa07f221ab",
+      "raw_rows": 71809,
+      "valid_rows": 70235,
+      "discarded_rows": 1574
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-11-10",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_314.csv",
+      "downloaded_at": "2026-11-16T14:47:01.024529+00:00",
+      "sha256_uncompressed": "27848aed6d013317cc143213282d4b98860bb390cdcc54886822b633121de04f",
+      "raw_rows": 74518,
+      "valid_rows": 72781,
+      "discarded_rows": 1737
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-11-06",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_310.csv",
+      "downloaded_at": "2026-11-16T14:47:03.534851+00:00",
+      "sha256_uncompressed": "fafedd48782d12bec82c64e93229c812c3a1ac9ad115c69e39ed17425714d55f",
+      "raw_rows": 75708,
+      "valid_rows": 73987,
+      "discarded_rows": 1721
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-11-11",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_315.csv",
+      "downloaded_at": "2026-11-16T14:47:03.928477+00:00",
+      "sha256_uncompressed": "d925387f66250865933e1155b1a26fea028c445e72981f82d96ba2ae6da79361",
+      "raw_rows": 74458,
+      "valid_rows": 72718,
+      "discarded_rows": 1740
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-11-12",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_316.csv",
+      "downloaded_at": "2026-11-16T14:47:06.401677+00:00",
+      "sha256_uncompressed": "c00d0bf2db61f9397c739097082fb71789b8996eb8e9d77b994c49f12eb32704",
+      "raw_rows": 73853,
+      "valid_rows": 72033,
+      "discarded_rows": 1820
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-01",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_244.csv",
+      "downloaded_at": "2026-11-16T14:47:08.697055+00:00",
+      "sha256_uncompressed": "76b454cc355a2282196eff7d15a734cd5dde2f3dd8d68dc7df2dcb0f60a7c405",
+      "raw_rows": 49390,
+      "valid_rows": 48906,
+      "discarded_rows": 484
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-02",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_245.csv",
+      "downloaded_at": "2026-11-16T14:47:10.823198+00:00",
+      "sha256_uncompressed": "6ae4360d797cc95d36663d4de268a3783ac89ef09d10708a59dda41529420f42",
+      "raw_rows": 49789,
+      "valid_rows": 49353,
+      "discarded_rows": 436
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-03",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_246.csv",
+      "downloaded_at": "2026-11-16T14:47:13.465631+00:00",
+      "sha256_uncompressed": "c88fc772049207c4edcc5ff15804986da053ba9221b824d208ab25798424d101",
+      "raw_rows": 49643,
+      "valid_rows": 49244,
+      "discarded_rows": 399
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-04",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_247.csv",
+      "downloaded_at": "2026-11-16T14:47:15.789323+00:00",
+      "sha256_uncompressed": "3bf10c0c86f066b3a6eb883a9086c85217083cb19d7eec2a9f5cca636059cbe5",
+      "raw_rows": 51294,
+      "valid_rows": 50870,
+      "discarded_rows": 424
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-05",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_248.csv",
+      "downloaded_at": "2026-11-16T14:47:17.995592+00:00",
+      "sha256_uncompressed": "7bfab4405ee0fa933b651a0fa757dad72490cc5ebcfdf3cef70f0df4710730a2",
+      "raw_rows": 37032,
+      "valid_rows": 36749,
+      "discarded_rows": 283
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-06",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_249.csv",
+      "downloaded_at": "2026-11-16T14:47:20.077952+00:00",
+      "sha256_uncompressed": "ac2cf8a1026c24ab16c0674683328b64fb67e7c4404562cc041f9748a5ee7148",
+      "raw_rows": 35780,
+      "valid_rows": 35523,
+      "discarded_rows": 257
+    },
+    {
+      "station_id": 23149,
+      "date": "2026-11-13",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_149_26_317.csv",
+      "downloaded_at": "2026-11-16T14:47:22.650826+00:00",
+      "sha256_uncompressed": "12e5fb37ca8e2287ef5d8e8d68fe8b2799c97c839b5fa04ac4d1844fed344726",
+      "raw_rows": 74347,
+      "valid_rows": 72868,
+      "discarded_rows": 1479
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-07",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_250.csv",
+      "downloaded_at": "2026-11-16T14:47:22.684219+00:00",
+      "sha256_uncompressed": "a09aa6ea70e37bf07dba00c443204845739e820b5e92d78d806b2f638a31282f",
+      "raw_rows": 45667,
+      "valid_rows": 45245,
+      "discarded_rows": 422
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-08",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_251.csv",
+      "downloaded_at": "2026-11-16T14:47:25.018267+00:00",
+      "sha256_uncompressed": "6602cfbc36af334d25d603cee9b0733c29666c01220ee3f3ce2f94d09ad832a4",
+      "raw_rows": 47307,
+      "valid_rows": 46968,
+      "discarded_rows": 339
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-09",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_252.csv",
+      "downloaded_at": "2026-11-16T14:47:25.951165+00:00",
+      "sha256_uncompressed": "c45033beea9d6025cf31049e4290e55dc97bba7c8bda93156bc723afecce753b",
+      "raw_rows": 47747,
+      "valid_rows": 47388,
+      "discarded_rows": 359
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-10",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_253.csv",
+      "downloaded_at": "2026-11-16T14:47:27.186519+00:00",
+      "sha256_uncompressed": "1425f8a04a1b7f9744aa1d5eefda2efcd789dcead402b66c891f3d65e6cbf13c",
+      "raw_rows": 48691,
+      "valid_rows": 48317,
+      "discarded_rows": 374
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-12",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_255.csv",
+      "downloaded_at": "2026-11-16T14:47:29.227031+00:00",
+      "sha256_uncompressed": "407eac819c74f8a41143b501596658f978ba9bfdd54ddaf722405eb623e6f560",
+      "raw_rows": 35222,
+      "valid_rows": 34972,
+      "discarded_rows": 250
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-13",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_256.csv",
+      "downloaded_at": "2026-11-16T14:47:30.245952+00:00",
+      "sha256_uncompressed": "379e5f24ffeff33bf749093923f3fbb970882bb516ed8818d954aaebbc05dc7f",
+      "raw_rows": 32934,
+      "valid_rows": 32684,
+      "discarded_rows": 250
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-14",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_257.csv",
+      "downloaded_at": "2026-11-16T14:47:31.726680+00:00",
+      "sha256_uncompressed": "e8325da53dec3da294ee1c3d0d7675f6cf10c68991293580a9e7d73e9ec8b448",
+      "raw_rows": 45485,
+      "valid_rows": 45137,
+      "discarded_rows": 348
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-16",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_259.csv",
+      "downloaded_at": "2026-11-16T14:47:34.056791+00:00",
+      "sha256_uncompressed": "6f3e439baf939deb83aec8265f8ed2cee19f738c579d61cbba8ece0c020ef284",
+      "raw_rows": 48580,
+      "valid_rows": 48177,
+      "discarded_rows": 403
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-17",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_260.csv",
+      "downloaded_at": "2026-11-16T14:47:36.259055+00:00",
+      "sha256_uncompressed": "b2c12083f858ff511aa1b5a57ad6b36db180695bd49b835d7b4119e7d6af99c1",
+      "raw_rows": 49558,
+      "valid_rows": 49117,
+      "discarded_rows": 441
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-18",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_261.csv",
+      "downloaded_at": "2026-11-16T14:47:38.431832+00:00",
+      "sha256_uncompressed": "2f004ac6b968adc651a488aca8fdba2e6f11fa2dc04d52d9672509f781b1bb7b",
+      "raw_rows": 48177,
+      "valid_rows": 47791,
+      "discarded_rows": 386
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-19",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_262.csv",
+      "downloaded_at": "2026-11-16T14:47:40.475677+00:00",
+      "sha256_uncompressed": "de4cea1bdcdee0c96bc22be7c4109f69df0b7d4fee49e19d1716a6ef3bc8d99e",
+      "raw_rows": 35450,
+      "valid_rows": 35215,
+      "discarded_rows": 235
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-20",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_263.csv",
+      "downloaded_at": "2026-11-16T14:47:42.458195+00:00",
+      "sha256_uncompressed": "4ef85a95a1c4342bd955623a90a5934100b377073361b3e794224f8e2daf30da",
+      "raw_rows": 33466,
+      "valid_rows": 33201,
+      "discarded_rows": 265
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-11",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_254.csv",
+      "downloaded_at": "2026-11-16T14:47:43.550699+00:00",
+      "sha256_uncompressed": "7447b05b1a56da3118a771ba5e18b4a46e17b78859ad012b644cf9715104bd2f",
+      "raw_rows": 48438,
+      "valid_rows": 48013,
+      "discarded_rows": 425
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-21",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_264.csv",
+      "downloaded_at": "2026-11-16T14:47:44.474627+00:00",
+      "sha256_uncompressed": "7902be590b18e4448b4d0237fd4b9e45c6167974597801bb1973466f478d3fbf",
+      "raw_rows": 44520,
+      "valid_rows": 44155,
+      "discarded_rows": 365
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-15",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_258.csv",
+      "downloaded_at": "2026-11-16T14:47:47.990701+00:00",
+      "sha256_uncompressed": "34916db126f3a4061587cb56ad840b3b1b4b6483bd6a92ba44b4453acb51fed6",
+      "raw_rows": 48043,
+      "valid_rows": 47634,
+      "discarded_rows": 409
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-24",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_267.csv",
+      "downloaded_at": "2026-11-16T14:47:50.083291+00:00",
+      "sha256_uncompressed": "11f64e93dba37ad50cae8850e603d1eee1326c89f1bf0dc0fa1504bcc0143b52",
+      "raw_rows": 48390,
+      "valid_rows": 48027,
+      "discarded_rows": 363
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-25",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_268.csv",
+      "downloaded_at": "2026-11-16T14:47:52.059241+00:00",
+      "sha256_uncompressed": "4549f2514c9b15f733fa05f9a190b5cd0918946c6783f4637df4c372894e7192",
+      "raw_rows": 48963,
+      "valid_rows": 48592,
+      "discarded_rows": 371
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-23",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_266.csv",
+      "downloaded_at": "2026-11-16T14:48:02.980077+00:00",
+      "sha256_uncompressed": "9d14f87bda287bced51dc3968e7cea8563a6fd3d9133702b08a84244c9905ee6",
+      "raw_rows": 47852,
+      "valid_rows": 47392,
+      "discarded_rows": 460
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-27",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_270.csv",
+      "downloaded_at": "2026-11-16T14:48:04.868410+00:00",
+      "sha256_uncompressed": "c66dc20f7bc20502a6bbbf046724f2e81be1eeab82ea266d0e79a2d9e6deafba",
+      "raw_rows": 34933,
+      "valid_rows": 34667,
+      "discarded_rows": 266
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-28",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_271.csv",
+      "downloaded_at": "2026-11-16T14:48:06.909289+00:00",
+      "sha256_uncompressed": "a1b45e9e2a81e07135b88411cf0e84bffd85d207e875e33a9127792d748bb55c",
+      "raw_rows": 46156,
+      "valid_rows": 45781,
+      "discarded_rows": 375
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-29",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_272.csv",
+      "downloaded_at": "2026-11-16T14:48:09.311070+00:00",
+      "sha256_uncompressed": "edc747eae9f92d020ffac83412e27b0d9f68b99b279e292db7859e662b6f1d03",
+      "raw_rows": 49038,
+      "valid_rows": 48587,
+      "discarded_rows": 451
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-26",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_269.csv",
+      "downloaded_at": "2026-11-16T14:48:10.053564+00:00",
+      "sha256_uncompressed": "ff2f50142513afcf352ec140a5682eabf3d152a2f7e79f635a70bebe31023e29",
+      "raw_rows": 34652,
+      "valid_rows": 34407,
+      "discarded_rows": 245
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-01",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_274.csv",
+      "downloaded_at": "2026-11-16T14:48:12.536793+00:00",
+      "sha256_uncompressed": "3e4eddac85d7755d3c767b145cedaf268c5f99ebe72b4aaa91968cddc894c231",
+      "raw_rows": 49149,
+      "valid_rows": 48747,
+      "discarded_rows": 402
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-02",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_275.csv",
+      "downloaded_at": "2026-11-16T14:48:15.058825+00:00",
+      "sha256_uncompressed": "3424dd125f782745ab18d6099560566744fda81ae3171d8fbe4ca79280ca1fe3",
+      "raw_rows": 48534,
+      "valid_rows": 48164,
+      "discarded_rows": 370
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-03",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_276.csv",
+      "downloaded_at": "2026-11-16T14:48:16.890823+00:00",
+      "sha256_uncompressed": "035c048525ab5ba71afe788e1353120c1742a42e6469b29b0bc138ca4699ccac",
+      "raw_rows": 35438,
+      "valid_rows": 35173,
+      "discarded_rows": 265
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-04",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_277.csv",
+      "downloaded_at": "2026-11-16T14:48:18.804070+00:00",
+      "sha256_uncompressed": "8756faeae08506be69c98f41567135e1876351d6845983608851085006c5865a",
+      "raw_rows": 33582,
+      "valid_rows": 33338,
+      "discarded_rows": 244
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-22",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_265.csv",
+      "downloaded_at": "2026-11-16T14:48:20.024231+00:00",
+      "sha256_uncompressed": "a38e1b5b07810936e3daf9f7787b73ccd179825bd05af123189676c7ec538d30",
+      "raw_rows": 48296,
+      "valid_rows": 47893,
+      "discarded_rows": 403
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-05",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_278.csv",
+      "downloaded_at": "2026-11-16T14:48:21.044232+00:00",
+      "sha256_uncompressed": "a7b4720856a9f176e30bd37efb9c0a647fcf5c0822ea47ded16d20ca3bf37635",
+      "raw_rows": 44852,
+      "valid_rows": 44491,
+      "discarded_rows": 361
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-07",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_280.csv",
+      "downloaded_at": "2026-11-16T14:48:23.432529+00:00",
+      "sha256_uncompressed": "d520d8e6d0efb048d58903cf857ffd731883325400d64298a0502650c0ac6bd5",
+      "raw_rows": 47979,
+      "valid_rows": 47629,
+      "discarded_rows": 350
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-08",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_281.csv",
+      "downloaded_at": "2026-11-16T14:48:25.534462+00:00",
+      "sha256_uncompressed": "9a90dd066461fa8e9da2e74b1ee4f0f46caeb3fe5873bca173b8107f390c7f66",
+      "raw_rows": 49096,
+      "valid_rows": 48675,
+      "discarded_rows": 421
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-09-30",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_273.csv",
+      "downloaded_at": "2026-11-16T14:48:26.534654+00:00",
+      "sha256_uncompressed": "f2c91165ed15d6f9624b0639e2da62d9c7d746e8ccdec4a4b1e9d61fb7cd984f",
+      "raw_rows": 50549,
+      "valid_rows": 50182,
+      "discarded_rows": 367
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-09",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_282.csv",
+      "downloaded_at": "2026-11-16T14:48:27.789830+00:00",
+      "sha256_uncompressed": "4840e66a5c662ad5f06950ea1c7803b48528171e49a0898d6820b1ead86a7812",
+      "raw_rows": 47969,
+      "valid_rows": 47606,
+      "discarded_rows": 363
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-06",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_279.csv",
+      "downloaded_at": "2026-11-16T14:48:37.352008+00:00",
+      "sha256_uncompressed": "429ec7963fc938efc8dd14426e92bd9ac453e1e8caee237046a1a1b03fb3b505",
+      "raw_rows": 47348,
+      "valid_rows": 46955,
+      "discarded_rows": 393
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-12",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_285.csv",
+      "downloaded_at": "2026-11-16T14:48:39.465584+00:00",
+      "sha256_uncompressed": "961ab1c1b0884a3eb418d36f1410b7fa3ab3c9d08cfae993adf6fdc305198fe3",
+      "raw_rows": 41204,
+      "valid_rows": 40894,
+      "discarded_rows": 310
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-13",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_286.csv",
+      "downloaded_at": "2026-11-16T14:48:41.594366+00:00",
+      "sha256_uncompressed": "e9d97c217b7096f6446e2fa97e157ea057583518fbe3c95d5951c4bd685c87fe",
+      "raw_rows": 44227,
+      "valid_rows": 43821,
+      "discarded_rows": 406
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-10",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_283.csv",
+      "downloaded_at": "2026-11-16T14:48:43.864799+00:00",
+      "sha256_uncompressed": "a4cb856fff6ee5b21abab59ccfc3fdf52b13beb7cb0f92f538ca9082c396de3f",
+      "raw_rows": 35641,
+      "valid_rows": 35392,
+      "discarded_rows": 249
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-15",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_288.csv",
+      "downloaded_at": "2026-11-16T14:49:01.053962+00:00",
+      "sha256_uncompressed": "d676d7080fe821dd5c9c8ea66fb0091cf11813a42966aac32bda097677cb3d94",
+      "raw_rows": 44556,
+      "valid_rows": 44176,
+      "discarded_rows": 380
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-16",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_289.csv",
+      "downloaded_at": "2026-11-16T14:49:18.277294+00:00",
+      "sha256_uncompressed": "5365f9685a740f2439443cd16931225ae4ea8718f33eb50e953e6c62cc04a303",
+      "raw_rows": 46001,
+      "valid_rows": 45669,
+      "discarded_rows": 332
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-17",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_290.csv",
+      "downloaded_at": "2026-11-16T14:49:20.790588+00:00",
+      "sha256_uncompressed": "77c6279837810f6d14a6dfc8391a53ebe4e4218bab448b86177d75c25570f442",
+      "raw_rows": 35344,
+      "valid_rows": 35098,
+      "discarded_rows": 246
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-18",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_291.csv",
+      "downloaded_at": "2026-11-16T14:49:22.791559+00:00",
+      "sha256_uncompressed": "23cfb3aab92601401ebe73bc0fef7cd9119ececc612c9bde281c2e7992f17225",
+      "raw_rows": 34643,
+      "valid_rows": 34377,
+      "discarded_rows": 266
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-19",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_292.csv",
+      "downloaded_at": "2026-11-16T14:49:25.246778+00:00",
+      "sha256_uncompressed": "3867d8903b818008e086d22be540ae963db7da4cc2ea6dbd77b44b076647d91a",
+      "raw_rows": 44391,
+      "valid_rows": 44004,
+      "discarded_rows": 387
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-20",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_293.csv",
+      "downloaded_at": "2026-11-16T14:49:27.451476+00:00",
+      "sha256_uncompressed": "b9957823c7161eecf200fb4c9c477a9b7f945f18a52a180dd6d138a4d8ca9182",
+      "raw_rows": 46615,
+      "valid_rows": 46195,
+      "discarded_rows": 420
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-21",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_294.csv",
+      "downloaded_at": "2026-11-16T14:49:29.890778+00:00",
+      "sha256_uncompressed": "b7fd7c40fa2b3d6e757870ad5104a706f0f74cbbb6d635e9fc31adcf78de533c",
+      "raw_rows": 48163,
+      "valid_rows": 47760,
+      "discarded_rows": 403
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-22",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_295.csv",
+      "downloaded_at": "2026-11-16T14:49:32.383031+00:00",
+      "sha256_uncompressed": "1945a17b9f4d3cf500c2da6e7c0855a37c8866d5c4b2b1e309797d33b3f21296",
+      "raw_rows": 48528,
+      "valid_rows": 48119,
+      "discarded_rows": 409
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-23",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_296.csv",
+      "downloaded_at": "2026-11-16T14:49:35.422826+00:00",
+      "sha256_uncompressed": "2a2fbd95a54e669da860c5404e89d77cb27345e9a3ffd0432140c2205e2c5e96",
+      "raw_rows": 47957,
+      "valid_rows": 47580,
+      "discarded_rows": 377
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-24",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_297.csv",
+      "downloaded_at": "2026-11-16T14:49:37.222801+00:00",
+      "sha256_uncompressed": "08e3e6c510866f4c77224f1292c482a133ba1c2b2452539b59e7870272e8fb75",
+      "raw_rows": 36053,
+      "valid_rows": 35802,
+      "discarded_rows": 251
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-25",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_298.csv",
+      "downloaded_at": "2026-11-16T14:49:39.389105+00:00",
+      "sha256_uncompressed": "280b38e979c5ffb97fe4dbec5c30711e632896365aad0be9be63b0916690879b",
+      "raw_rows": 33078,
+      "valid_rows": 32845,
+      "discarded_rows": 233
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-26",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_299.csv",
+      "downloaded_at": "2026-11-16T14:49:41.552025+00:00",
+      "sha256_uncompressed": "d7655e3a99c094344d25ae858d3dd698d4848c04697d52d04550d9dd4a0ff3ca",
+      "raw_rows": 44304,
+      "valid_rows": 43985,
+      "discarded_rows": 319
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-27",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_300.csv",
+      "downloaded_at": "2026-11-16T14:49:43.581134+00:00",
+      "sha256_uncompressed": "1d409fc3faae50d5475040b136d7a7a728b9f71640f3bd9eeb04fc3bdd29cd58",
+      "raw_rows": 46849,
+      "valid_rows": 46515,
+      "discarded_rows": 334
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-28",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_301.csv",
+      "downloaded_at": "2026-11-16T14:49:45.605408+00:00",
+      "sha256_uncompressed": "629c0b9cd63875a100e9884526adccbc764f0e161645ef08c3a4f526da10dab9",
+      "raw_rows": 48397,
+      "valid_rows": 48003,
+      "discarded_rows": 394
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-29",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_302.csv",
+      "downloaded_at": "2026-11-16T14:49:47.882545+00:00",
+      "sha256_uncompressed": "ab74d65b90e760ba5fb728272491b93407ded47c7e9f1cc97c51461bfef50d3f",
+      "raw_rows": 48195,
+      "valid_rows": 47772,
+      "discarded_rows": 423
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-30",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_303.csv",
+      "downloaded_at": "2026-11-16T14:49:49.981306+00:00",
+      "sha256_uncompressed": "6c7bcb9b54ab392b6eaac0068392c019b00041a0e9f558531692824cf06927b6",
+      "raw_rows": 49174,
+      "valid_rows": 48732,
+      "discarded_rows": 442
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-31",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_304.csv",
+      "downloaded_at": "2026-11-16T14:49:51.929609+00:00",
+      "sha256_uncompressed": "a35cc03e92769dd133a091693e1a22e842a2769085545d1dfd480cb8a9a36853",
+      "raw_rows": 36961,
+      "valid_rows": 36658,
+      "discarded_rows": 303
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-11-01",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_305.csv",
+      "downloaded_at": "2026-11-16T14:49:53.628311+00:00",
+      "sha256_uncompressed": "f55ce36ba1ef69941c01780077eca98a6f82a6e9f05d0df4aed8e0436775aef0",
+      "raw_rows": 33011,
+      "valid_rows": 32757,
+      "discarded_rows": 254
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-11-02",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_306.csv",
+      "downloaded_at": "2026-11-16T14:49:55.769710+00:00",
+      "sha256_uncompressed": "12fa5d834ddb6e84d96d081081f3b703fc21f13b17677ea7d51a54a36a6ecc5d",
+      "raw_rows": 44101,
+      "valid_rows": 43712,
+      "discarded_rows": 389
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-11-03",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_307.csv",
+      "downloaded_at": "2026-11-16T14:49:58.175823+00:00",
+      "sha256_uncompressed": "744e2bad91729c2e45b0b46f3c3669315895196948123311e7380c2345f90586",
+      "raw_rows": 46074,
+      "valid_rows": 45643,
+      "discarded_rows": 431
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-11-04",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_308.csv",
+      "downloaded_at": "2026-11-16T14:50:00.418851+00:00",
+      "sha256_uncompressed": "4beb0fbc43fc89bac7425b7754a8de1d941e4b77d82172e2e0c232fd1a3fe052",
+      "raw_rows": 45975,
+      "valid_rows": 45511,
+      "discarded_rows": 464
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-11",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_284.csv",
+      "downloaded_at": "2026-11-16T14:50:00.996585+00:00",
+      "sha256_uncompressed": "12d7677c7953bb7b591324dcd8091ee96958deff2ba372c9b7a7b117db2735c2",
+      "raw_rows": 31102,
+      "valid_rows": 30899,
+      "discarded_rows": 203
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-11-05",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_309.csv",
+      "downloaded_at": "2026-11-16T14:50:02.468577+00:00",
+      "sha256_uncompressed": "143ff309bf39cba48ff9e841291409d9ee8dc7a620c9902bf7476fd27b0f310a",
+      "raw_rows": 47172,
+      "valid_rows": 46709,
+      "discarded_rows": 463
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-11-06",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_310.csv",
+      "downloaded_at": "2026-11-16T14:50:03.626631+00:00",
+      "sha256_uncompressed": "162bc260a0d22a24e35b58ab7daa4e0dd5af89c92a94a9fd42900de01d0132a9",
+      "raw_rows": 45733,
+      "valid_rows": 45201,
+      "discarded_rows": 532
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-11-07",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_311.csv",
+      "downloaded_at": "2026-11-16T14:50:04.851553+00:00",
+      "sha256_uncompressed": "843fa44ed9497deb28e1f332d6c117426519350dc104d6f6a25f1fe35bd227de",
+      "raw_rows": 34196,
+      "valid_rows": 33926,
+      "discarded_rows": 270
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-11-08",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_312.csv",
+      "downloaded_at": "2026-11-16T14:50:05.851189+00:00",
+      "sha256_uncompressed": "6a569e05b2836b31ad1580c1e40a2d7dadad81d0d5b2684f871b766afbefaf52",
+      "raw_rows": 35527,
+      "valid_rows": 35227,
+      "discarded_rows": 300
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-11-09",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_313.csv",
+      "downloaded_at": "2026-11-16T14:50:07.232907+00:00",
+      "sha256_uncompressed": "06395e9c1da50ee2e37c42a12ef709cabc17ef4ab8d4f149db32cbff2e053f0f",
+      "raw_rows": 43255,
+      "valid_rows": 42812,
+      "discarded_rows": 443
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-11-10",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_314.csv",
+      "downloaded_at": "2026-11-16T14:50:08.317888+00:00",
+      "sha256_uncompressed": "b7c345fc5abaec8dfe5d0fa52abc8fcba6878c05b887d045aaf5eb5cc6525ec0",
+      "raw_rows": 45813,
+      "valid_rows": 45313,
+      "discarded_rows": 500
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-11-11",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_315.csv",
+      "downloaded_at": "2026-11-16T14:50:09.467565+00:00",
+      "sha256_uncompressed": "17ba7b8c3809838d0d789c93774faf714ab61d5b3019b12eddee8b7ef41b3418",
+      "raw_rows": 46647,
+      "valid_rows": 46113,
+      "discarded_rows": 534
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-11-12",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_316.csv",
+      "downloaded_at": "2026-11-16T14:50:10.758805+00:00",
+      "sha256_uncompressed": "d2b779fcda0037fc56ca4c1589cc2a84882eb11c98b801535ac73222c83b922f",
+      "raw_rows": 47127,
+      "valid_rows": 46737,
+      "discarded_rows": 390
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-11-13",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_317.csv",
+      "downloaded_at": "2026-11-16T14:50:11.900336+00:00",
+      "sha256_uncompressed": "e25cc9b68ad1f8c317d321853ec387d832f7a033ae6ccb6ad53f8d2b08634743",
+      "raw_rows": 46262,
+      "valid_rows": 45865,
+      "discarded_rows": 397
+    },
+    {
+      "station_id": 23154,
+      "date": "2026-10-14",
+      "source_url": "https://tie.digitraffic.fi/api/tms/v1/history/raw/lamraw_154_26_287.csv",
+      "downloaded_at": "2026-11-16T14:51:05.044108+00:00",
+      "sha256_uncompressed": "6f257aa22270ea85003a9dd48c0e9a2134d38acd00629b5b51b3cc00b81d9c0b",
+      "raw_rows": 44403,
+      "valid_rows": 44057,
+      "discarded_rows": 346
+    }
+  ],
+  "weather_source": "Open-Meteo Historical Forecast API; model estimates, not roadside observations",
+  "license": "Traffic: Fintraffic Digitraffic CC BY 4.0. Weather: Open-Meteo CC BY 4.0; free API non-commercial use."
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2026-11-16T15:31:38.159874+00:00",
+  "paired_rows": 205901,
+  "horizon_minutes": 15,
+  "default_mode": "traffic",
+  "selected_algorithms": {
+    "traffic": "Gradient boosting",
+    "weather": "Gradient boosting"
+  },
+  "splits": {
+    "train": {
+      "rows": 144089,
+      "start_utc": "2026-08-31 21:05:00+00:00",
+      "end_utc": "2026-10-22 14:50:00+00:00",
+      "last_target_utc": "2026-10-22 15:05:00+00:00"
+    },
+    "validation": {
+      "rows": 30553,
+      "start_utc": "2026-10-22 15:10:00+00:00",
+      "end_utc": "2026-11-02 19:15:00+00:00",
+      "last_target_utc": "2026-11-02 19:30:00+00:00"
+    },
+    "test": {
+      "rows": 31199,
+      "start_utc": "2026-11-02 19:35:00+00:00",
+      "end_utc": "2026-11-13 21:45:00+00:00",
+      "last_target_utc": "2026-11-13 22:00:00+00:00"
+    }
+  },
+  "validation_metrics": [
+    {
+      "mode": "traffic",
+      "algorithm": "Persistence",
+      "MAE_kmh": 2.2495648684094536,
+      "RMSE_kmh": 3.634043580729867,
+      "R2": 0.9548541753666495
+    },
+    {
+      "mode": "traffic",
+      "algorithm": "Random forest",
+      "MAE_kmh": 2.043830597524451,
+      "RMSE_kmh": 3.224587386177734,
+      "R2": 0.964454418005339
+    },
+    {
+      "mode": "traffic",
+      "algorithm": "Gradient boosting",
+      "MAE_kmh": 1.9281858490620616,
+      "RMSE_kmh": 2.999808304264523,
+      "R2": 0.9692373082412644
+    },
+    {
+      "mode": "weather",
+      "algorithm": "Persistence",
+      "MAE_kmh": 2.2495648684094536,
+      "RMSE_kmh": 3.634043580729867,
+      "R2": 0.9548541753666495
+    },
+    {
+      "mode": "weather",
+      "algorithm": "Random forest",
+      "MAE_kmh": 2.0497647807452952,
+      "RMSE_kmh": 3.2564332280842367,
+      "R2": 0.9637488587951049
+    },
+    {
+      "mode": "weather",
+      "algorithm": "Gradient boosting",
+      "MAE_kmh": 1.9292040886801711,
+      "RMSE_kmh": 3.027496744615598,
+      "R2": 0.9686668038478227
+    }
+  ],
+  "test_metrics": [
+    {
+      "mode": "traffic",
+      "algorithm": "Gradient boosting",
+      "MAE_kmh": 1.864312518623181,
+      "RMSE_kmh": 2.9188388134409053,
+      "R2": 0.9690913762709154
+    },
+    {
+      "mode": "weather",
+      "algorithm": "Gradient boosting",
+      "MAE_kmh": 1.8844427903913044,
+      "RMSE_kmh": 2.9601623639954706,
+      "R2": 0.9682100014918039
+    },
+    {
+      "mode": "baseline",
+      "algorithm": "Persistence",
+      "MAE_kmh": 2.34266823118156,
+      "RMSE_kmh": 3.7489078119899304,
+      "R2": 0.9490118841113275
+    }
+  ],
+  "weather_missing_fraction": 0.0016609924186866507,
+  "limitations": [
+    "Retrospective evaluation on the same stations; not evidence of generalization to unseen cities or sensors.",
+    "Archived weather forecasts are a stitched retrospective series, not an issuance-time backtest. Weather benefit is exploratory until tested prospectively.",
+    "Training windows are fixed five-minute vehicle aggregates. Live inputs are the provider rolling five-minute speed and flow estimates; this small distribution mismatch needs monitoring.",
+    "Raw repeated local times at the autumn daylight-saving transition are discarded because offsets cannot be recovered unambiguously.",
+    "Congestion labels use project-defined speed-ratio thresholds, not human-labelled official congestion classes.",
+    "The prediction horizon is measured from the observation timestamp, not from the time a user opens the dashboard."
+  ]
+}
