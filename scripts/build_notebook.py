@@ -18,7 +18,10 @@ md('''# Helsinki Traffic Forecasting with Traffic and Weather
 ## Objective and scope
 Predict the five-minute average traffic speed ending **15 minutes after the observation time** at five Helsinki-region stations. Compare traffic-only and traffic-plus-weather models against a persistence baseline. This is regression; R² must not be described as classification accuracy.
 
-Real Fintraffic vehicle data and Open-Meteo archived weather forecasts are used. Results apply to later dates at these stations, not automatically to other roads. Weather is modelled, not a roadside observation. All results below are computed from saved real data.''')
+Real Fintraffic vehicle data and Open-Meteo archived weather forecasts are used. Results apply to later dates at these stations, not automatically to other roads. Weather is modelled, not a roadside observation. All results below are computed from saved real data.
+
+**Local and Google Colab setup:** Run the setup cell below first. It locates the complete project, or downloads the public repository if you uploaded only this notebook. In Colab it installs matching notebook dependencies. Use a CPU runtime; a GPU is not required. If Colab asks you to restart after installation, restart the session and run all cells again.''')
+code((root/'scripts'/'notebook_setup.py').read_text(encoding='utf-8'))
 code('''from pathlib import Path
 import json, inspect, sys
 PROJECT_ROOT = Path.cwd() if (Path.cwd() / 'traffic').exists() else Path.cwd().parent

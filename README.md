@@ -4,6 +4,12 @@ An English ML notebook and Streamlit dashboard for 15-minute-ahead average speed
 
 ## Run
 
+### Google Colab
+
+Open https://colab.research.google.com/github/vipin-143/Traffic-Congestion-Prediction/blob/main/notebooks/Traffic_Forecasting.ipynb and choose **Runtime → Run all**. The first setup cell automatically downloads the complete repository if the notebook is running alone, and installs matching notebook dependencies in Colab. A CPU runtime is sufficient. If Colab requests a session restart after package installation, restart and run all cells again. Do not upload only the `traffic` directory: the notebook also needs the saved dataset and model artifacts.
+
+### Local computer
+
 On the original workspace, right-click run_dashboard.ps1 and run with PowerShell, or:
 
 ```powershell
